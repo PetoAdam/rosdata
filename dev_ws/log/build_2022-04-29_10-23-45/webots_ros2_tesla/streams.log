@@ -1,0 +1,47 @@
+[0.546s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_tesla': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_core:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_tesla build --build-base /home/peto/dev_ws/build/webots_ros2_tesla/build install --prefix /home/peto/dev_ws/install/webots_ros2_tesla --record /home/peto/dev_ws/build/webots_ros2_tesla/install.log --single-version-externally-managed
+[0.720s] running egg_info
+[0.721s] creating ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info
+[0.721s] writing ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/dependency_links.txt
+[0.722s] writing entry points to ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/entry_points.txt
+[0.722s] writing requirements to ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/requires.txt
+[0.722s] writing top-level names to ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/top_level.txt
+[0.723s] writing manifest file '../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[0.746s] reading manifest file '../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[0.746s] writing manifest file '../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info/SOURCES.txt'
+[0.747s] running build
+[0.747s] running build_py
+[0.747s] creating /home/peto/dev_ws/build/webots_ros2_tesla/build
+[0.747s] creating /home/peto/dev_ws/build/webots_ros2_tesla/build/lib
+[0.747s] creating /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.747s] copying webots_ros2_tesla/tesla_driver.py -> /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.748s] copying webots_ros2_tesla/__init__.py -> /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.748s] copying webots_ros2_tesla/lane_follower.py -> /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla
+[0.748s] running install
+[0.749s] running install_lib
+[0.752s] creating /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla
+[0.752s] copying /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/tesla_driver.py -> /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla
+[0.753s] copying /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/__init__.py -> /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla
+[0.753s] copying /home/peto/dev_ws/build/webots_ros2_tesla/build/lib/webots_ros2_tesla/lane_follower.py -> /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla
+[0.753s] byte-compiling /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla/tesla_driver.py to tesla_driver.cpython-38.pyc
+[0.755s] byte-compiling /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla/__init__.py to __init__.cpython-38.pyc
+[0.755s] byte-compiling /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla/lane_follower.py to lane_follower.cpython-38.pyc
+[0.755s] running install_data
+[0.756s] creating /home/peto/dev_ws/install/webots_ros2_tesla/share/ament_index
+[0.756s] creating /home/peto/dev_ws/install/webots_ros2_tesla/share/ament_index/resource_index
+[0.756s] creating /home/peto/dev_ws/install/webots_ros2_tesla/share/ament_index/resource_index/packages
+[0.756s] copying resource/webots_ros2_tesla -> /home/peto/dev_ws/install/webots_ros2_tesla/share/ament_index/resource_index/packages
+[0.756s] creating /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/launch
+[0.756s] copying launch/robot_launch.py -> /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/launch
+[0.757s] creating /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[0.757s] copying worlds/tesla_world.wbt -> /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[0.757s] copying worlds/.tesla_world.wbproj -> /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/worlds
+[0.757s] creating /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/resource
+[0.757s] copying resource/tesla_webots.urdf -> /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla/resource
+[0.757s] copying package.xml -> /home/peto/dev_ws/install/webots_ros2_tesla/share/webots_ros2_tesla
+[0.757s] running install_egg_info
+[0.759s] Copying ../../../build/webots_ros2_tesla/webots_ros2_tesla.egg-info to /home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages/webots_ros2_tesla-1.2.2-py3.8.egg-info
+[0.759s] running install_scripts
+[0.771s] Installing lane_follower script to /home/peto/dev_ws/install/webots_ros2_tesla/lib/webots_ros2_tesla
+[0.772s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_tesla/install.log'
+[0.789s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_tesla' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_core:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_tesla build --build-base /home/peto/dev_ws/build/webots_ros2_tesla/build install --prefix /home/peto/dev_ws/install/webots_ros2_tesla --record /home/peto/dev_ws/build/webots_ros2_tesla/install.log --single-version-externally-managed

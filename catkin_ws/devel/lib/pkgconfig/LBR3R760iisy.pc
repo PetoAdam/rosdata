@@ -1,0 +1,8 @@
+prefix=/home/peto/catkin_ws/devel
+
+Name: LBR3R760iisy
+Description: Description of LBR3R760iisy
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs std_msgs tf

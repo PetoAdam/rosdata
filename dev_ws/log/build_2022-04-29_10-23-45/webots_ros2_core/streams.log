@@ -1,0 +1,123 @@
+[0.698s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_core': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_core build --build-base /home/peto/dev_ws/build/webots_ros2_core/build install --prefix /home/peto/dev_ws/install/webots_ros2_core --record /home/peto/dev_ws/build/webots_ros2_core/install.log --single-version-externally-managed
+[0.854s] WARNING:webots_ros2_core: This package will be removed with the release of Webots R2023a. Use "webots_ros2_driver" instead.
+[0.869s] running egg_info
+[0.869s] creating ../../../build/webots_ros2_core/webots_ros2_core.egg-info
+[0.869s] writing ../../../build/webots_ros2_core/webots_ros2_core.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/dependency_links.txt
+[0.870s] writing entry points to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/entry_points.txt
+[0.870s] writing requirements to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/requires.txt
+[0.870s] writing top-level names to ../../../build/webots_ros2_core/webots_ros2_core.egg-info/top_level.txt
+[0.871s] writing manifest file '../../../build/webots_ros2_core/webots_ros2_core.egg-info/SOURCES.txt'
+[0.895s] reading manifest file '../../../build/webots_ros2_core/webots_ros2_core.egg-info/SOURCES.txt'
+[0.896s] writing manifest file '../../../build/webots_ros2_core/webots_ros2_core.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] creating /home/peto/dev_ws/build/webots_ros2_core/build
+[0.896s] creating /home/peto/dev_ws/build/webots_ros2_core/build/lib
+[0.896s] creating /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.897s] copying webots_ros2_core/webots_launcher.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.897s] copying webots_ros2_core/__init__.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.897s] copying webots_ros2_core/webots_differential_drive_node.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.897s] copying webots_ros2_core/utils.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.897s] copying webots_ros2_core/joint_state_publisher.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.897s] copying webots_ros2_core/webots_robotic_arm_node.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.898s] copying webots_ros2_core/webots_node.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.898s] copying webots_ros2_core/trajectory_follower.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core
+[0.898s] creating /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.898s] copying webots_ros2_core/devices/led_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.898s] copying webots_ros2_core/devices/sensor_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.899s] copying webots_ros2_core/devices/imu_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.899s] copying webots_ros2_core/devices/__init__.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.899s] copying webots_ros2_core/devices/device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.899s] copying webots_ros2_core/devices/device_manager.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.899s] copying webots_ros2_core/devices/camera_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.899s] copying webots_ros2_core/devices/light_sensor_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.900s] copying webots_ros2_core/devices/distance_sensor_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.900s] copying webots_ros2_core/devices/range_finder_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.900s] copying webots_ros2_core/devices/gps_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.900s] copying webots_ros2_core/devices/lidar_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.900s] copying webots_ros2_core/devices/robot_device.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices
+[0.900s] creating /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math
+[0.900s] copying webots_ros2_core/math/interpolation.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math
+[0.901s] copying webots_ros2_core/math/__init__.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math
+[0.901s] copying webots_ros2_core/math/quaternions.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math
+[0.901s] creating /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots
+[0.901s] copying webots_ros2_core/webots/__init__.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots
+[0.901s] copying webots_ros2_core/webots/vehicle.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots
+[0.901s] copying webots_ros2_core/webots/controller.py -> /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots
+[0.902s] running install
+[0.902s] running install_lib
+[0.903s] creating /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.903s] creating /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/led_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/sensor_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/imu_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/__init__.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/device_manager.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.904s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/camera_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.905s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/light_sensor_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.905s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/distance_sensor_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.905s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/range_finder_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.905s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/gps_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.905s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/lidar_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.905s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/devices/robot_device.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices
+[0.906s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots_launcher.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.906s] creating /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots
+[0.906s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots/__init__.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots
+[0.906s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots/vehicle.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots
+[0.906s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots/controller.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots
+[0.906s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/__init__.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.906s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots_differential_drive_node.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.907s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/utils.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.907s] creating /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math
+[0.907s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math/interpolation.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math
+[0.907s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math/__init__.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math
+[0.907s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/math/quaternions.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math
+[0.907s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/joint_state_publisher.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.907s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots_robotic_arm_node.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.908s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/webots_node.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.908s] copying /home/peto/dev_ws/build/webots_ros2_core/build/lib/webots_ros2_core/trajectory_follower.py -> /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core
+[0.908s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/led_device.py to led_device.cpython-38.pyc
+[0.910s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/sensor_device.py to sensor_device.cpython-38.pyc
+[0.910s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/imu_device.py to imu_device.cpython-38.pyc
+[0.911s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/__init__.py to __init__.cpython-38.pyc
+[0.911s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/device.py to device.cpython-38.pyc
+[0.911s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/device_manager.py to device_manager.cpython-38.pyc
+[0.912s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/camera_device.py to camera_device.cpython-38.pyc
+[0.913s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/light_sensor_device.py to light_sensor_device.cpython-38.pyc
+[0.914s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/distance_sensor_device.py to distance_sensor_device.cpython-38.pyc
+[0.914s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/range_finder_device.py to range_finder_device.cpython-38.pyc
+[0.915s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/gps_device.py to gps_device.cpython-38.pyc
+[0.915s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/lidar_device.py to lidar_device.cpython-38.pyc
+[0.916s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/devices/robot_device.py to robot_device.cpython-38.pyc
+[0.916s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots_launcher.py to webots_launcher.cpython-38.pyc
+[0.917s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots/__init__.py to __init__.cpython-38.pyc
+[0.917s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots/vehicle.py to vehicle.cpython-38.pyc
+[0.917s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots/controller.py to controller.cpython-38.pyc
+[0.917s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/__init__.py to __init__.cpython-38.pyc
+[0.917s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots_differential_drive_node.py to webots_differential_drive_node.cpython-38.pyc
+[0.918s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/utils.py to utils.cpython-38.pyc
+[0.920s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math/interpolation.py to interpolation.cpython-38.pyc
+[0.920s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math/__init__.py to __init__.cpython-38.pyc
+[0.920s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/math/quaternions.py to quaternions.cpython-38.pyc
+[0.921s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/joint_state_publisher.py to joint_state_publisher.cpython-38.pyc
+[0.922s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots_robotic_arm_node.py to webots_robotic_arm_node.cpython-38.pyc
+[0.922s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/webots_node.py to webots_node.cpython-38.pyc
+[0.923s] byte-compiling /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core/trajectory_follower.py to trajectory_follower.cpython-38.pyc
+[0.924s] running install_data
+[0.927s] creating /home/peto/dev_ws/install/webots_ros2_core/share/ament_index
+[0.927s] creating /home/peto/dev_ws/install/webots_ros2_core/share/ament_index/resource_index
+[0.927s] creating /home/peto/dev_ws/install/webots_ros2_core/share/ament_index/resource_index/packages
+[0.927s] copying resource/webots_ros2_core -> /home/peto/dev_ws/install/webots_ros2_core/share/ament_index/resource_index/packages
+[0.927s] copying package.xml -> /home/peto/dev_ws/install/webots_ros2_core/share/webots_ros2_core
+[0.928s] creating /home/peto/dev_ws/install/webots_ros2_core/share/webots_ros2_core/launch
+[0.928s] copying launch/robot_launch.py -> /home/peto/dev_ws/install/webots_ros2_core/share/webots_ros2_core/launch
+[0.928s] running install_egg_info
+[0.929s] Copying ../../../build/webots_ros2_core/webots_ros2_core.egg-info to /home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages/webots_ros2_core-1.2.2-py3.8.egg-info
+[0.930s] running install_scripts
+[0.941s] Installing webots_differential_drive_node script to /home/peto/dev_ws/install/webots_ros2_core/lib/webots_ros2_core
+[0.942s] Installing webots_node script to /home/peto/dev_ws/install/webots_ros2_core/lib/webots_ros2_core
+[0.942s] Installing webots_robotic_arm_node script to /home/peto/dev_ws/install/webots_ros2_core/lib/webots_ros2_core
+[0.942s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_core/install.log'
+[0.961s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_core' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_core build --build-base /home/peto/dev_ws/build/webots_ros2_core/build install --prefix /home/peto/dev_ws/install/webots_ros2_core --record /home/peto/dev_ws/build/webots_ros2_core/install.log --single-version-externally-managed

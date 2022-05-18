@@ -1,0 +1,65 @@
+[0.584s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_universal_robot': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_universal_robot build --build-base /home/peto/dev_ws/build/webots_ros2_universal_robot/build install --prefix /home/peto/dev_ws/install/webots_ros2_universal_robot --record /home/peto/dev_ws/build/webots_ros2_universal_robot/install.log --single-version-externally-managed
+[0.755s] running egg_info
+[0.756s] creating ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info
+[0.756s] writing ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/PKG-INFO
+[0.756s] writing dependency_links to ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/dependency_links.txt
+[0.756s] writing entry points to ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/entry_points.txt
+[0.756s] writing requirements to ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/requires.txt
+[0.757s] writing top-level names to ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/top_level.txt
+[0.757s] writing manifest file '../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/SOURCES.txt'
+[0.780s] reading manifest file '../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/SOURCES.txt'
+[0.781s] writing manifest file '../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info/SOURCES.txt'
+[0.781s] running build
+[0.782s] running build_py
+[0.782s] creating /home/peto/dev_ws/build/webots_ros2_universal_robot/build
+[0.782s] creating /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib
+[0.782s] creating /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot
+[0.782s] copying webots_ros2_universal_robot/__init__.py -> /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot
+[0.782s] copying webots_ros2_universal_robot/abb_controller.py -> /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot
+[0.782s] copying webots_ros2_universal_robot/ur5e_controller.py -> /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot
+[0.783s] copying webots_ros2_universal_robot/follow_joint_trajectory_client.py -> /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot
+[0.783s] running install
+[0.783s] running install_lib
+[0.784s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot
+[0.784s] copying /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot/__init__.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot
+[0.785s] copying /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot/abb_controller.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot
+[0.785s] copying /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot/ur5e_controller.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot
+[0.785s] copying /home/peto/dev_ws/build/webots_ros2_universal_robot/build/lib/webots_ros2_universal_robot/follow_joint_trajectory_client.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot
+[0.785s] byte-compiling /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot/__init__.py to __init__.cpython-38.pyc
+[0.789s] byte-compiling /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot/abb_controller.py to abb_controller.cpython-38.pyc
+[0.790s] byte-compiling /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot/ur5e_controller.py to ur5e_controller.cpython-38.pyc
+[0.790s] byte-compiling /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot/follow_joint_trajectory_client.py to follow_joint_trajectory_client.cpython-38.pyc
+[0.791s] running install_data
+[0.791s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/worlds
+[0.791s] copying worlds/universal_robot.wbt -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/worlds
+[0.792s] copying worlds/.universal_robot.wbproj -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/worlds
+[0.792s] copying worlds/armed_robots.wbt -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/worlds
+[0.792s] copying worlds/.armed_robots.wbproj -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/worlds
+[0.792s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.792s] copying resource/view_robot_dynamic.rviz -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.792s] copying resource/webots_ur5e_description.urdf -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.792s] copying resource/ros2_control_config.yaml -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/moveit_ur5e_description.urdf -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/moveit_controllers.yaml -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/moveit_ur5e.srdf -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/moveit_kinematics.yaml -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/moveit_movegroup.yaml -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/moveit_visualization.rviz -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.793s] copying resource/ros2_control_abb_config.yaml -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.794s] copying resource/webots_abb_description.urdf -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/resource
+[0.794s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/launch
+[0.794s] copying launch/robot_launch.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/launch
+[0.794s] copying launch/multirobot_launch.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/launch
+[0.794s] copying launch/moveit_demo_launch.py -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot/launch
+[0.794s] copying package.xml -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/webots_ros2_universal_robot
+[0.794s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/share/ament_index
+[0.794s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/share/ament_index/resource_index
+[0.795s] creating /home/peto/dev_ws/install/webots_ros2_universal_robot/share/ament_index/resource_index/packages
+[0.795s] copying resource/webots_ros2_universal_robot -> /home/peto/dev_ws/install/webots_ros2_universal_robot/share/ament_index/resource_index/packages
+[0.795s] running install_egg_info
+[0.796s] Copying ../../../build/webots_ros2_universal_robot/webots_ros2_universal_robot.egg-info to /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages/webots_ros2_universal_robot-1.2.2-py3.8.egg-info
+[0.797s] running install_scripts
+[0.808s] Installing abb_controller script to /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/webots_ros2_universal_robot
+[0.809s] Installing ur5e_controller script to /home/peto/dev_ws/install/webots_ros2_universal_robot/lib/webots_ros2_universal_robot
+[0.809s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_universal_robot/install.log'
+[0.825s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_universal_robot' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_universal_robot build --build-base /home/peto/dev_ws/build/webots_ros2_universal_robot/build install --prefix /home/peto/dev_ws/install/webots_ros2_universal_robot --record /home/peto/dev_ws/build/webots_ros2_universal_robot/install.log --single-version-externally-managed

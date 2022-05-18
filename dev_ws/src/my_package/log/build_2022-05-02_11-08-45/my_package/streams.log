@@ -1,0 +1,43 @@
+[0.552s] Invoking command in '/home/peto/dev_ws/src/my_package': PYTHONPATH=/home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/peto/dev_ws/src/my_package/build/my_package/build install --prefix /home/peto/dev_ws/src/my_package/install/my_package --record /home/peto/dev_ws/src/my_package/build/my_package/install.log --single-version-externally-managed
+[0.727s] running egg_info
+[0.728s] creating build/my_package/my_package.egg-info
+[0.728s] writing build/my_package/my_package.egg-info/PKG-INFO
+[0.728s] writing dependency_links to build/my_package/my_package.egg-info/dependency_links.txt
+[0.728s] writing entry points to build/my_package/my_package.egg-info/entry_points.txt
+[0.729s] writing requirements to build/my_package/my_package.egg-info/requires.txt
+[0.729s] writing top-level names to build/my_package/my_package.egg-info/top_level.txt
+[0.730s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[0.754s] reading manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[0.755s] writing manifest file 'build/my_package/my_package.egg-info/SOURCES.txt'
+[0.755s] running build
+[0.756s] running build_py
+[0.756s] creating /home/peto/dev_ws/src/my_package/build/my_package/build
+[0.756s] creating /home/peto/dev_ws/src/my_package/build/my_package/build/lib
+[0.756s] creating /home/peto/dev_ws/src/my_package/build/my_package/build/lib/my_package
+[0.756s] copying my_package/__init__.py -> /home/peto/dev_ws/src/my_package/build/my_package/build/lib/my_package
+[0.756s] copying my_package/my_robot_driver.py -> /home/peto/dev_ws/src/my_package/build/my_package/build/lib/my_package
+[0.757s] running install
+[0.757s] running install_lib
+[0.758s] creating /home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages/my_package
+[0.758s] copying /home/peto/dev_ws/src/my_package/build/my_package/build/lib/my_package/__init__.py -> /home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages/my_package
+[0.759s] copying /home/peto/dev_ws/src/my_package/build/my_package/build/lib/my_package/my_robot_driver.py -> /home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages/my_package
+[0.759s] byte-compiling /home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[0.760s] byte-compiling /home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages/my_package/my_robot_driver.py to my_robot_driver.cpython-38.pyc
+[0.760s] running install_data
+[0.761s] creating /home/peto/dev_ws/src/my_package/install/my_package/share/ament_index
+[0.761s] creating /home/peto/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index
+[0.761s] creating /home/peto/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/packages
+[0.761s] copying resource/my_package -> /home/peto/dev_ws/src/my_package/install/my_package/share/ament_index/resource_index/packages
+[0.761s] creating /home/peto/dev_ws/src/my_package/install/my_package/share/my_package/launch
+[0.762s] copying launch/robot_launch.py -> /home/peto/dev_ws/src/my_package/install/my_package/share/my_package/launch
+[0.762s] creating /home/peto/dev_ws/src/my_package/install/my_package/share/my_package/worlds
+[0.762s] copying worlds/my_world.wbt -> /home/peto/dev_ws/src/my_package/install/my_package/share/my_package/worlds
+[0.762s] creating /home/peto/dev_ws/src/my_package/install/my_package/share/my_package/resource
+[0.762s] copying resource/my_robot.urdf -> /home/peto/dev_ws/src/my_package/install/my_package/share/my_package/resource
+[0.762s] copying package.xml -> /home/peto/dev_ws/src/my_package/install/my_package/share/my_package
+[0.762s] running install_egg_info
+[0.765s] Copying build/my_package/my_package.egg-info to /home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[0.765s] running install_scripts
+[0.778s] Installing my_robot_driver script to /home/peto/dev_ws/src/my_package/install/my_package/lib/my_package
+[0.778s] writing list of installed files to '/home/peto/dev_ws/src/my_package/build/my_package/install.log'
+[0.800s] Invoked command in '/home/peto/dev_ws/src/my_package' returned '0': PYTHONPATH=/home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_package build --build-base /home/peto/dev_ws/src/my_package/build/my_package/build install --prefix /home/peto/dev_ws/src/my_package/install/my_package --record /home/peto/dev_ws/src/my_package/build/my_package/install.log --single-version-externally-managed

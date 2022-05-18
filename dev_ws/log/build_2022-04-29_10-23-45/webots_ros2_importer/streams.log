@@ -1,0 +1,63 @@
+[0.559s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_importer': PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /home/peto/dev_ws/build/webots_ros2_importer/build install --prefix /home/peto/dev_ws/install/webots_ros2_importer --record /home/peto/dev_ws/build/webots_ros2_importer/install.log --single-version-externally-managed
+[0.725s] running egg_info
+[0.726s] creating ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info
+[0.726s] writing ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/PKG-INFO
+[0.726s] writing dependency_links to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/dependency_links.txt
+[0.727s] writing entry points to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/entry_points.txt
+[0.727s] writing requirements to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/requires.txt
+[0.727s] writing top-level names to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/top_level.txt
+[0.728s] writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.751s] reading manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.751s] writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.751s] running build
+[0.752s] running build_py
+[0.752s] creating /home/peto/dev_ws/build/webots_ros2_importer/build
+[0.752s] creating /home/peto/dev_ws/build/webots_ros2_importer/build/lib
+[0.752s] creating /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.752s] copying webots_ros2_importer/__init__.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.752s] copying webots_ros2_importer/urdf2proto.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.752s] copying webots_ros2_importer/xacro2proto.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer
+[0.753s] creating /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots
+[0.753s] creating /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.753s] copying webots_ros2_importer/urdf2webots/urdf2webots/importer.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.753s] copying webots_ros2_importer/urdf2webots/urdf2webots/__init__.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.753s] copying webots_ros2_importer/urdf2webots/urdf2webots/writeProto.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.753s] copying webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.754s] copying webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.754s] copying webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py -> /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots
+[0.754s] running install
+[0.755s] running install_lib
+[0.755s] creating /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer
+[0.756s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/__init__.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer
+[0.756s] creating /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots
+[0.756s] creating /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.756s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/importer.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.756s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/__init__.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.756s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/writeProto.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.757s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.757s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.757s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots
+[0.757s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/urdf2proto.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer
+[0.757s] copying /home/peto/dev_ws/build/webots_ros2_importer/build/lib/webots_ros2_importer/xacro2proto.py -> /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer
+[0.758s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/__init__.py to __init__.cpython-38.pyc
+[0.758s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/importer.py to importer.cpython-38.pyc
+[0.760s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/__init__.py to __init__.cpython-38.pyc
+[0.760s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/writeProto.py to writeProto.cpython-38.pyc
+[0.765s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/math_utils.py to math_utils.cpython-38.pyc
+[0.766s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/parserURDF.py to parserURDF.cpython-38.pyc
+[0.770s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2webots/urdf2webots/gazebo_materials.py to gazebo_materials.cpython-38.pyc
+[0.773s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/urdf2proto.py to urdf2proto.cpython-38.pyc
+[0.774s] byte-compiling /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer/xacro2proto.py to xacro2proto.cpython-38.pyc
+[0.774s] running install_data
+[0.775s] creating /home/peto/dev_ws/install/webots_ros2_importer/share/ament_index
+[0.775s] creating /home/peto/dev_ws/install/webots_ros2_importer/share/ament_index/resource_index
+[0.775s] creating /home/peto/dev_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[0.775s] copying resource/webots_ros2_importer -> /home/peto/dev_ws/install/webots_ros2_importer/share/ament_index/resource_index/packages
+[0.775s] copying package.xml -> /home/peto/dev_ws/install/webots_ros2_importer/share/webots_ros2_importer
+[0.775s] running install_egg_info
+[0.776s] Copying ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info to /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer-1.2.2-py3.8.egg-info
+[0.777s] running install_scripts
+[0.788s] Installing urdf2proto script to /home/peto/dev_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.789s] Installing xacro2proto script to /home/peto/dev_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.789s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_importer/install.log'
+[0.811s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_importer' returned '0': PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /home/peto/dev_ws/build/webots_ros2_importer/build install --prefix /home/peto/dev_ws/install/webots_ros2_importer --record /home/peto/dev_ws/build/webots_ros2_importer/install.log --single-version-externally-managed

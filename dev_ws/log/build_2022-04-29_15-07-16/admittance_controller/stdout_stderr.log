@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found controller_interface: 1.4.0 (/opt/ros/galactic/share/controller_interface/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/peto/dev_ws/build/admittance_controller
+[35m[1mScanning dependencies of target admittance_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o[0m
+In file included from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:15[m[K:
+[01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:29:10:[m[K [01;31m[Kfatal error: [m[Kexternal_torque_sensor_broadcaster/external_torque_sensor.hpp: No such file or directory
+   29 | #include [01;31m[K"external_torque_sensor_broadcaster/external_torque_sensor.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:63: CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/admittance_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

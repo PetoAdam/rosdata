@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>LBR3R760iisy</name>
+  <version>0.0.1</version>
+  <description>The LBR3R760iisy ROS package</description>
+
+  <maintainer email="balazs.kantor@kuka.com">KantiAndGreg</maintainer>
+  <license>BSD</license>
+
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+
+
+  <!-- Author tags are optional, multiple are allowed, one per tag -->
+  <!-- Authors do not have to be maintainers, but could be -->
+  <author email="balazs.kantor@kuka.com">KantiAndGreg</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <!--<depend>robot_state_publisher</depend>-->
+  <!--<depend>roscpp</depend>-->
+  <!--<depend>rospy</depend>-->
+  <!--<depend>std_msgs</depend>-->
+  <!--<depend>sensor_msgs</depend>-->
+  <!--<depend>tf</depend>-->
+  <!--<depend>gazebo_ros</depend>-->
+  <!--<depend>gazebo</depend>-->
+  <!--<depend>gazebo_plugins</depend>-->
+  <!--<depend>hardware_interface</depend>-->
+  <!--<depend>controller_manager</depend>-->
+  <!--<depend>controller_manager_msgs</depend>-->
+  <!--<depend>control_msgs</depend>-->
+  <!--<depend>trajectory_msgs</depend>-->
+  <!--<depend>actionlib</depend>-->
+  <!--<depend>pluginlib</depend>-->
+  <!--<depend>transmission_interface</depend>-->
+  <!--<depend>urdf</depend>-->
+  <!--<depend>controller_interface</depend>-->
+  <!--<depend>control_toolbox</depend>-->
+  <!--<depend>combined_robot_hw</depend>-->
+  <!--<depend>controller_manager</depend>-->
+  <!--<depend>ros_control</depend>-->
+  <!--<depend>joint_limits_interface</depend>-->
+  <!--<depend>moveit_ros</depend>-->
+  <!--<depend>robot_state_publisher</depend>-->
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>gazebo</build_depend>
+  <build_depend>gazebo_plugins</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>transmission_interface</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>controller_interface</build_depend>
+  <build_depend>control_toolbox</build_depend>
+  <build_depend>combined_robot_hw</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>controller_manager_msgs</build_depend>
+  <build_depend>ros_control</build_depend>
+  <build_depend>ros_controllers</build_depend>
+  <build_depend>joint_limits_interface</build_depend>
+  <build_depend>moveit_ros</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <build_export_depend>gazebo_ros</build_export_depend>
+  <build_export_depend>gazebo</build_export_depend>
+  <build_export_depend>gazebo_plugins</build_export_depend>
+  <build_export_depend>hardware_interface</build_export_depend>
+  <build_export_depend>controller_manager</build_export_depend>
+  <build_export_depend>control_msgs</build_export_depend>
+  <build_export_depend>trajectory_msgs</build_export_depend>
+  <build_export_depend>actionlib</build_export_depend>
+  <build_export_depend>pluginlib</build_export_depend>
+  <build_export_depend>transmission_interface</build_export_depend>
+  <build_export_depend>urdf</build_export_depend>
+  <build_export_depend>controller_interface</build_export_depend>
+  <build_export_depend>control_toolbox</build_export_depend>
+  <build_export_depend>combined_robot_hw</build_export_depend>
+  <build_export_depend>controller_manager</build_export_depend>
+  <build_export_depend>controller_manager_msgs</build_export_depend>
+  <build_export_depend>ros_control</build_export_depend>
+  <build_export_depend>ros_controllers</build_export_depend>
+  <build_export_depend>joint_limits_interface</build_export_depend>
+  <build_export_depend>moveit_ros</build_export_depend>
+  <build_export_depend>robot_state_publisher</build_export_depend>
+
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo</exec_depend>
+  <exec_depend>gazebo_plugins</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>controller_manager_msgs</exec_depend>
+  <exec_depend>control_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>transmission_interface</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>controller_interface</exec_depend>
+  <exec_depend>control_toolbox</exec_depend>
+  <exec_depend>combined_robot_hw</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>ros_control</exec_depend>
+  <exec_depend>ros_controllers</exec_depend>
+  <exec_depend>joint_limits_interface</exec_depend>
+  <exec_depend>moveit_ros</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  
+  <export>
+    <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+  </export>
+</package>

@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000191] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000213] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000225] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000239] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000254] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.004853] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.005071] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/peto/dev_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/cpp_srvcli'], 'cwd': '/home/peto/dev_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://proxy1.kuka.int.kuka.com:80/'), ('no_proxy', 'localhost, 127.0.0.1, localaddress, .localdomain, .kuka.int.kuka.com, *.kuka.int.kuka.com, kuka.int.kuka.com, .int.kuka.com, *.int.kuka.com, int.kuka.com, mykuka.com'), ('USER', 'peto'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '936'), ('ROS_PACKAGE_PATH', '/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/home/peto/dev_ws/install/turtlesim/lib:/opt/ros/noetic/lib'), ('HOME', '/home/peto'), ('OLDPWD', '/home/peto/dev_ws/src/cpp_srvcli'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost, 127.0.0.1, localaddress, .localdomain, .kuka.int.kuka.com, *.kuka.int.kuka.com, kuka.int.kuka.com, .int.kuka.com, *.int.kuka.com, int.kuka.com, mykuka.com'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://proxy1.kuka.int.kuka.com:80/'), ('COLCON_PREFIX_PATH', '/home/peto/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'peto'), ('http_proxy', 'http://proxy1.kuka.int.kuka.com:80/'), ('JOURNAL_STREAM', '8:29694'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peto-VirtualBox:@/tmp/.ICE-unix/975,unix/peto-VirtualBox:/tmp/.ICE-unix/975'), ('INVOCATION_ID', 'a5c18dce7c324475baccad6536ea90d8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('ftp_proxy', 'http://proxy1.kuka.int.kuka.com:80/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5d594abf_759e_4516_876c_b970f249ff5b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic:/home/peto/dev_ws/install/turtlesim:/home/peto/dev_ws/install/my_package'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peto/dev_ws/build/cpp_srvcli'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://proxy1.kuka.int.kuka.com:80/'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/home/peto/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages'), ('HTTP_PROXY', 'http://proxy1.kuka.int.kuka.com:80/'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/peto/dev_ws/install/turtlesim:/home/peto/dev_ws/install/my_package:/opt/ros/galactic:/opt/ros/noetic')]), 'shell': False}
+[0.059359] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.091765] (-) TimerEvent: {}
+[0.097762] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.101119] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.156892] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.157809] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.191996] (-) TimerEvent: {}
+[0.208502] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.216184] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.216572] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.218879] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.283576] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.284738] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.292098] (-) TimerEvent: {}
+[0.346443] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.354416] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.355045] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.356669] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.373908] (cpp_srvcli) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.374224] (cpp_srvcli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.392216] (-) TimerEvent: {}
+[0.429382] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.463071] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.467694] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.492367] (-) TimerEvent: {}
+[0.531696] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.561116] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.592491] (-) TimerEvent: {}
+[0.619061] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.664272] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.666554] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.680578] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.681488] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.692619] (-) TimerEvent: {}
+[0.736751] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.737281] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.791695] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.792227] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.793139] (-) TimerEvent: {}
+[0.838157] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.838564] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.889947] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.891146] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.893251] (-) TimerEvent: {}
+[0.994028] (-) TimerEvent: {}
+[1.014496] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.2 (/opt/ros/galactic/share/example_interfaces/cmake)\n'}
+[1.094125] (-) TimerEvent: {}
+[1.156115] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.157847] (cpp_srvcli) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (add_executable):\n'}
+[1.158075] (cpp_srvcli) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.158139] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[1.158197] (cpp_srvcli) StderrLine: {'line': b'    src/add_two_ints_server.cpp\n'}
+[1.158252] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[1.158309] (cpp_srvcli) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[1.158367] (cpp_srvcli) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[1.158420] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[1.158483] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[1.158793] (cpp_srvcli) StderrLine: {'line': b'CMake Error at CMakeLists.txt:8 (add_executable):\n'}
+[1.158917] (cpp_srvcli) StderrLine: {'line': b'  No SOURCES given to target: server\n'}
+[1.158980] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[1.159036] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[1.159099] (cpp_srvcli) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[1.168187] (cpp_srvcli) CommandEnded: {'returncode': 1}
+[1.187611] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 1}
+[1.188896] (-) EventReactorShutdown: {}

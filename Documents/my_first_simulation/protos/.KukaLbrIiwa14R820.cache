@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.5
+protoFileHash: 30d9fc9ece6cc6f6639da08c79974438
+needsRobotAncestor: 1
+baseType: Robot
+slotType: 
+parameters: translation,rotation,name,controller,controllerArgs,customData,supervisor,synchronization,selfCollision,toolSlot
+tags: 
+license:  Apache License 2.0
+licenseUrl:  http://www.apache.org/licenses/LICENSE-2.0
+documentationUrl: 
+info: This\sis\sa\sproto\sfile\sfor\sWebots\sfor\sthe\sKukaLbrIiwa14R820\nExtracted\sfrom:\s/home/peto/catkin_ws/src/kuka_experimental/kuka_lbr_iiwa_support/urdf/model.urdf

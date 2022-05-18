@@ -1,0 +1,4 @@
+Invoking command in '/home/peto/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/cpp_srvcli -- -j1 -l1
+Invoked command in '/home/peto/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/cpp_srvcli -- -j1 -l1
+Invoking command in '/home/peto/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/peto/dev_ws/build/cpp_srvcli
+Invoked command in '/home/peto/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/peto/dev_ws/build/cpp_srvcli

@@ -1,0 +1,33 @@
+running egg_info
+creating ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info
+writing ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/PKG-INFO
+writing dependency_links to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/dependency_links.txt
+writing entry points to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/entry_points.txt
+writing requirements to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/requires.txt
+writing top-level names to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/top_level.txt
+writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+reading manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index
+creating /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index/resource_index
+creating /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+copying resource/webots_ros2_tiago -> /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+creating /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+copying launch/robot_launch.py -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+creating /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/tiago_webots.urdf -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/ros2_control.yml -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/default.rviz -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/map.pgm -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying resource/map.yaml -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+copying package.xml -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago
+creating /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+copying worlds/default.wbt -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+copying worlds/.default.wbproj -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+running install_egg_info
+Copying ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info to /home/peto/dev_ws/install/webots_ros2_tiago/lib/python3.8/site-packages/webots_ros2_tiago-1.2.2-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_tiago/install.log'

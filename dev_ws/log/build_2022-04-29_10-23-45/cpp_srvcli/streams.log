@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/peto/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/cpp_srvcli -- -j1 -l1
+[0.080s] [ 50%] Built target client
+[0.108s] [100%] Built target server
+[0.125s] Invoked command in '/home/peto/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/cpp_srvcli -- -j1 -l1
+[0.153s] Invoking command in '/home/peto/dev_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/peto/dev_ws/build/cpp_srvcli
+[0.163s] -- Install configuration: ""
+[0.165s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[0.166s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[0.167s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[0.168s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[0.169s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[0.170s] -- Installing: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[0.170s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[0.170s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[0.170s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[0.170s] -- Up-to-date: /home/peto/dev_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[0.173s] Invoked command in '/home/peto/dev_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/peto/dev_ws/build/cpp_srvcli

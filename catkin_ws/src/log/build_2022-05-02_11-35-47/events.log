@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (Project) JobQueued: {'identifier': 'Project', 'dependencies': OrderedDict()}
+[0.000277] (Project) JobStarted: {'identifier': 'Project'}
+[0.039632] (Project) JobProgress: {'identifier': 'Project', 'progress': 'cmake'}
+[0.039864] (Project) Command: {'cmd': ['/usr/bin/cmake', '/home/peto/catkin_ws/src', '-DCMAKE_INSTALL_PREFIX=/home/peto/catkin_ws/src/install/Project'], 'cwd': '/home/peto/catkin_ws/src/build/Project', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://proxy1.kuka.int.kuka.com:80/'), ('no_proxy', 'localhost, 127.0.0.1, localaddress, .localdomain, .kuka.int.kuka.com, *.kuka.int.kuka.com, kuka.int.kuka.com, .int.kuka.com, *.int.kuka.com, int.kuka.com, mykuka.com'), ('USER', 'peto'), ('LC_TIME', 'fr_FR.UTF-8'), ('SSH_AGENT_PID', '80254'), ('ROS_PACKAGE_PATH', '/home/peto/catkin_ws/src:/opt/ros/noetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/peto/catkin_ws/devel/lib:/opt/ros/noetic/lib:/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:/home/peto/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/peto'), ('OLDPWD', '/home/peto/catkin_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost, 127.0.0.1, localaddress, .localdomain, .kuka.int.kuka.com, *.kuka.int.kuka.com, kuka.int.kuka.com, .int.kuka.com, *.int.kuka.com, int.kuka.com, mykuka.com'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('MANAGERPID', '80074'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d66d57d2a5866ce7ac2102b5626b95d8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://proxy1.kuka.int.kuka.com:80/'), ('COLCON_PREFIX_PATH', '/home/peto/dev_ws/install:/home/peto/dev_ws/src/my_package/install:/home/peto/dev_ws/src/webots_ros2_package/install'), ('ROS_DISTRO', 'noetic'), ('LOGNAME', 'peto'), ('http_proxy', 'http://proxy1.kuka.int.kuka.com:80/'), ('JOURNAL_STREAM', '8:638161'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/peto/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'peto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/noetic/bin:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/peto-VirtualBox:@/tmp/.ICE-unix/80292,unix/peto-VirtualBox:/tmp/.ICE-unix/80292'), ('INVOCATION_ID', '3ad90fb194fc4afb8a40b9cf52c4f27a'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('ftp_proxy', 'http://proxy1.kuka.int.kuka.com:80/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/891a42f3_0cf6_429b_9fcf_49c490d9f999'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', '/home/peto/catkin_ws/devel/share/common-lisp'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/peto/dev_ws/install/webots_ros2:/home/peto/dev_ws/install/webots_ros2_universal_robot:/home/peto/dev_ws/install/webots_ros2_turtlebot:/home/peto/dev_ws/install/webots_ros2_tiago:/home/peto/dev_ws/install/webots_ros2_tests:/home/peto/dev_ws/install/webots_ros2_tesla:/home/peto/dev_ws/install/webots_ros2_mavic:/home/peto/dev_ws/install/webots_ros2_epuck:/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_core:/home/peto/dev_ws/install/webots_ros2_msgs:/home/peto/dev_ws/install/webots_ros2_importer:/home/peto/dev_ws/install/turtlesim:/home/peto/dev_ws/install/my_package:/home/peto/dev_ws/install/cpp_srvcli:/home/peto/dev_ws/install/cpp_pubsub:/home/peto/dev_ws/src/my_package/install/my_package:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/peto/catkin_ws/src/build/Project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://proxy1.kuka.int.kuka.com:80/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d66d57d2a5866ce7ac2102b5626b95d8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/peto/catkin_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/peto/dev_ws/install/webots_ros2/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_universal_robot/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_tests/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_tesla/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages:/home/peto/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/peto/dev_ws/src/my_package/install/my_package/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://proxy1.kuka.int.kuka.com:80/'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/peto/catkin_ws/devel:/opt/ros/noetic:/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/home/peto/dev_ws/install/turtlesim:/home/peto/dev_ws/install/my_package:/home/peto/dev_ws/install/cpp_srvcli:/home/peto/dev_ws/install/cpp_pubsub')]), 'shell': False}
+[0.087342] (-) TimerEvent: {}
+[0.093893] (Project) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.146433] (Project) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.151471] (Project) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.187454] (-) TimerEvent: {}
+[0.205225] (Project) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.206211] (Project) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.262558] (Project) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.274158] (Project) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.274712] (Project) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.277341] (Project) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.287581] (-) TimerEvent: {}
+[0.339804] (Project) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.340986] (Project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.387766] (-) TimerEvent: {}
+[0.402618] (Project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.412527] (Project) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.413203] (Project) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.487898] (-) TimerEvent: {}
+[0.588268] (-) TimerEvent: {}
+[0.686384] (Project) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.686531] (Project) StdoutLine: {'line': b'See also "/home/peto/catkin_ws/src/build/Project/CMakeFiles/CMakeOutput.log".\n'}
+[0.687715] (Project) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (message):\n'}
+[0.687828] (Project) StderrLine: {'line': b"  Search for 'catkin' in workspace failed (catkin_find_pkg catkin\n"}
+[0.691499] (-) TimerEvent: {}
+[0.691830] (Project) StderrLine: {'line': b'  /home/peto/catkin_ws/src): Traceback (most recent call last):\n'}
+[0.691949] (Project) StderrLine: {'line': b'\n'}
+[0.691990] (Project) StderrLine: {'line': b'    File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 597, in parse_package_string\n'}
+[0.692038] (Project) StderrLine: {'line': b'      root = dom.parseString(data)\n'}
+[0.692076] (Project) StderrLine: {'line': b'    File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[0.692114] (Project) StderrLine: {'line': b'      return expatbuilder.parseString(string)\n'}
+[0.692152] (Project) StderrLine: {'line': b'    File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.692189] (Project) StderrLine: {'line': b'      return builder.parseString(string)\n'}
+[0.692225] (Project) StderrLine: {'line': b'    File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.692263] (Project) StderrLine: {'line': b'      parser.Parse(string, True)\n'}
+[0.692299] (Project) StderrLine: {'line': b'\n'}
+[0.692335] (Project) StderrLine: {'line': b'  xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7,\n'}
+[0.692373] (Project) StderrLine: {'line': b'  column 52\n'}
+[0.692410] (Project) StderrLine: {'line': b'\n'}
+[0.692446] (Project) StderrLine: {'line': b'  \n'}
+[0.692482] (Project) StderrLine: {'line': b'\n'}
+[0.692518] (Project) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.692597] (Project) StderrLine: {'line': b'\n'}
+[0.692637] (Project) StderrLine: {'line': b'  \n'}
+[0.692674] (Project) StderrLine: {'line': b'\n'}
+[0.692710] (Project) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.692747] (Project) StderrLine: {'line': b'\n'}
+[0.692784] (Project) StderrLine: {'line': b'    File "/usr/bin/catkin_find_pkg", line 33, in <module>\n'}
+[0.692821] (Project) StderrLine: {'line': b"      sys.exit(load_entry_point('catkin-pkg==0.4.24', 'console_scripts', 'catkin_find_pkg')())\n"}
+[0.692869] (Project) StderrLine: {'line': b'    File "/usr/lib/python3/dist-packages/catkin_pkg/cli/find_pkg.py", line 20, in main\n'}
+[0.692906] (Project) StderrLine: {'line': b'      packages = find_packages(args.base_path)\n'}
+[0.692942] (Project) StderrLine: {'line': b'    File "/usr/lib/python3/dist-packages/catkin_pkg/packages.py", line 87, in find_packages\n'}
+[0.692980] (Project) StderrLine: {'line': b'      packages = find_packages_allowing_duplicates(basepath, exclude_paths=exclude_paths, exclude_subspaces=exclude_subspaces, warnings=warnings)\n'}
+[0.693019] (Project) StderrLine: {'line': b'    File "/usr/lib/python3/dist-packages/catkin_pkg/packages.py", line 147, in find_packages_allowing_duplicates\n'}
+[0.693055] (Project) StderrLine: {'line': b'      parsed_package = parse_package_string(\n'}
+[0.693091] (Project) StderrLine: {'line': b'    File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 599, in parse_package_string\n'}
+[0.693127] (Project) StderrLine: {'line': b"      raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.693164] (Project) StderrLine: {'line': b'\n'}
+[0.693199] (Project) StderrLine: {'line': b'  catkin_pkg.package.InvalidPackage: Error(s) in package\n'}
+[0.693236] (Project) StderrLine: {'line': b"  '/home/peto/catkin_ws/src/LBR3R760iisy/package.xml':\n"}
+[0.693272] (Project) StderrLine: {'line': b'\n'}
+[0.693308] (Project) StderrLine: {'line': b'  The manifest contains invalid XML:\n'}
+[0.693345] (Project) StderrLine: {'line': b'\n'}
+[0.693381] (Project) StderrLine: {'line': b'  not well-formed (invalid token): line 7, column 52\n'}
+[0.693425] (Project) StderrLine: {'line': b'\n'}
+[0.693465] (Project) StderrLine: {'line': b'\n'}
+[0.693502] (Project) CommandEnded: {'returncode': 1}
+[0.693859] (Project) JobEnded: {'identifier': 'Project', 'rc': 1}
+[0.698227] (-) EventReactorShutdown: {}

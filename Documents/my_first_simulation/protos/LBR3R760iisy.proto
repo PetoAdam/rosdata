@@ -1,0 +1,369 @@
+#VRML_SIM R2022a utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the LBR3R760iisy
+# Extracted from: /home/peto/catkin_ws/src/LBR3R760iisy/urdf/Urdf.urdf
+
+PROTO LBR3R760iisy [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "LBR3R760iisy"  # Is `Robot.name`.
+  field  SFString    controller      "void"          # Is `Robot.controller`.
+  field  MFString    controllerArgs  []              # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""              # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE           # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE            # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE           # Is `Robot.selfCollision`.
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    children [
+      Solid {
+        translation 0.000000 0.000000 0.000000
+        rotation 0.000000 0.000000 1.000000 0.000000
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.500000 0.500000 0.500000
+              transparency 0.000000
+              roughness 1.000000
+              metalness 0
+              emissiveColor 0.000000 0.000000 0.000000
+            }
+            geometry DEF robotBase Mesh {
+              url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/robotBase.stl"
+            }
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              axis 0.000000 0.000000 1.000000
+              anchor 0.000000 0.000000 0.126400
+              dampingConstant 0.0
+              staticFriction 0.0
+            }
+            device [
+              RotationalMotor {
+                name "LBR3R760iisy_BasicJoint1"
+                maxVelocity 2.0
+                minPosition -3.2288591
+                maxPosition 3.2288591
+                maxTorque 5.0
+              }
+              PositionSensor {
+                name "LBR3R760iisy_BasicJoint1_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 0.000000 0.000000 0.126400
+              rotation 0.000000 0.000000 1.000000 0.000000
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                    baseColor 0.500000 0.500000 0.500000
+                    transparency 0.000000
+                    roughness 1.000000
+                    metalness 0
+                    emissiveColor 0.000000 0.000000 0.000000
+                  }
+                  geometry DEF link1 Mesh {
+                    url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/link1.stl"
+                  }
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    axis 0.000000 1.000000 0.000000
+                    anchor 0.000000 -0.082900 0.088600
+                    dampingConstant 0.0
+                    staticFriction 0.0
+                  }
+                  device [
+                    RotationalMotor {
+                      name "LBR3R760iisy_BasicJoint2"
+                      maxVelocity 2.0
+                      minPosition -4.0142572796
+                      maxPosition 0.8726646
+                      maxTorque 5.0
+                    }
+                    PositionSensor {
+                      name "LBR3R760iisy_BasicJoint2_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 0.000000 -0.082900 0.088600
+                    rotation 0.000000 0.000000 1.000000 0.000000
+                    children [
+                      Shape {
+                        appearance PBRAppearance {
+                          baseColor 0.500000 0.500000 0.500000
+                          transparency 0.000000
+                          roughness 1.000000
+                          metalness 0
+                          emissiveColor 0.000000 0.000000 0.000000
+                        }
+                        geometry DEF link2 Mesh {
+                          url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/link2.stl"
+                        }
+                      }
+                      HingeJoint {
+                        jointParameters HingeJointParameters {
+                          axis 0.000000 1.000000 0.000000
+                          anchor 0.000000 0.000000 0.300000
+                          dampingConstant 0.0
+                          staticFriction 0.0
+                        }
+                        device [
+                          RotationalMotor {
+                            name "LBR3R760iisy_BasicJoint3"
+                            maxVelocity 2.0
+                            minPosition -2.61799387799
+                            maxPosition 2.61799387799
+                            maxTorque 5.0
+                          }
+                          PositionSensor {
+                            name "LBR3R760iisy_BasicJoint3_sensor"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 0.000000 0.000000 0.300000
+                          rotation 0.000000 0.000000 1.000000 0.000000
+                          children [
+                            Shape {
+                              appearance PBRAppearance {
+                                baseColor 0.500000 0.500000 0.500000
+                                transparency 0.000000
+                                roughness 1.000000
+                                metalness 0
+                                emissiveColor 0.000000 0.000000 0.000000
+                              }
+                              geometry DEF link3 Mesh {
+                                url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/link3.stl"
+                              }
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                axis 1.000000 0.000000 0.000000
+                                anchor 0.129200 0.082900 0.000000
+                                dampingConstant 0.0
+                                staticFriction 0.0
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "LBR3R760iisy_BasicJoint4"
+                                  maxVelocity 2.0
+                                  minPosition -3.05432619
+                                  maxPosition 3.05432619
+                                  maxTorque 5.0
+                                }
+                                PositionSensor {
+                                  name "LBR3R760iisy_BasicJoint4_sensor"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0.129200 0.082900 0.000000
+                                rotation 0.000000 0.000000 1.000000 0.000000
+                                children [
+                                  Shape {
+                                    appearance PBRAppearance {
+                                      baseColor 0.500000 0.500000 0.500000
+                                      transparency 0.000000
+                                      roughness 1.000000
+                                      metalness 0
+                                      emissiveColor 0.000000 0.000000 0.000000
+                                    }
+                                    geometry DEF link4 Mesh {
+                                      url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/link4.stl"
+                                    }
+                                  }
+                                  HingeJoint {
+                                    jointParameters HingeJointParameters {
+                                      axis 0.000000 1.000000 0.000000
+                                      anchor 0.170800 0.038200 0.000000
+                                      dampingConstant 0.0
+                                      staticFriction 0.0
+                                    }
+                                    device [
+                                      RotationalMotor {
+                                        name "LBR3R760iisy_BasicJoint5"
+                                        maxVelocity 2.0
+                                        minPosition -1.919862177
+                                        maxPosition 1.919862177
+                                        maxTorque 5.0
+                                      }
+                                      PositionSensor {
+                                        name "LBR3R760iisy_BasicJoint5_sensor"
+                                      }
+                                    ]
+                                    endPoint Solid {
+                                      translation 0.170800 0.038200 0.000000
+                                      rotation 0.000000 0.000000 1.000000 0.000000
+                                      children [
+                                        Shape {
+                                          appearance PBRAppearance {
+                                            baseColor 0.500000 0.500000 0.500000
+                                            transparency 0.000000
+                                            roughness 1.000000
+                                            metalness 0
+                                            emissiveColor 0.000000 0.000000 0.000000
+                                          }
+                                          geometry DEF link5 Mesh {
+                                            url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/link5.stl"
+                                          }
+                                        }
+                                        HingeJoint {
+                                          jointParameters HingeJointParameters {
+                                            axis 1.000000 0.000000 0.000000
+                                            anchor 0.068200 -0.038200 0.000000
+                                            dampingConstant 0.0
+                                            staticFriction 0.0
+                                          }
+                                          device [
+                                            RotationalMotor {
+                                              name "LBR3R760iisy_BasicJoint6"
+                                              maxVelocity 2.0
+                                              minPosition -3.839724354
+                                              maxPosition 3.839724354
+                                              maxTorque 5.0
+                                            }
+                                            PositionSensor {
+                                              name "LBR3R760iisy_BasicJoint6_sensor"
+                                            }
+                                          ]
+                                          endPoint Solid {
+                                            translation 0.068200 -0.038200 0.000000
+                                            rotation 0.000000 0.000000 1.000000 0.000000
+                                            children [
+                                              Shape {
+                                                appearance PBRAppearance {
+                                                  baseColor 0.500000 0.500000 0.500000
+                                                  transparency 0.000000
+                                                  roughness 1.000000
+                                                  metalness 0
+                                                  emissiveColor 0.000000 0.000000 0.000000
+                                                }
+                                                geometry DEF link6 Mesh {
+                                                  url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/link6.stl"
+                                                }
+                                              }
+                                            ]
+                                            name "LBR3R760iisy_Link6"
+                                            boundingObject DEF simplify_link6 Mesh {
+                                              url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_link6.stl"
+                                            }
+                                            physics Physics {
+                                              density -1
+                                              mass 0.843000
+                                              centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                              inertiaMatrix [
+                                                1.467392e-03 1.121315e-03 1.581605e-03
+                                                0.000000e+00 0.000000e+00 0.000000e+00
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                      name "LBR3R760iisy_Link5"
+                                      boundingObject DEF simplify_link5 Mesh {
+                                        url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_link5.stl"
+                                      }
+                                      physics Physics {
+                                        density -1
+                                        mass 1.441800
+                                        centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                        inertiaMatrix [
+                                          2.362528e-03 1.418544e-03 2.581310e-03
+                                          0.000000e+00 0.000000e+00 0.000000e+00
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                                name "LBR3R760iisy_Link4"
+                                boundingObject DEF simplify_link4 Mesh {
+                                  url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_link4.stl"
+                                }
+                                physics Physics {
+                                  density -1
+                                  mass 2.013800
+                                  centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                  inertiaMatrix [
+                                    2.446849e-03 9.293010e-03 9.579026e-03
+                                    0.000000e+00 0.000000e+00 0.000000e+00
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                          name "LBR3R760iisy_Link3"
+                          boundingObject DEF simplify_link3 Mesh {
+                            url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_link3.stl"
+                          }
+                          physics Physics {
+                            density -1
+                            mass 3.471000
+                            centerOfMass [ 0.000000 0.000000 0.000000 ]
+                            inertiaMatrix [
+                              1.138049e-02 5.665369e-03 1.339506e-02
+                              0.000000e+00 0.000000e+00 0.000000e+00
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                    name "LBR3R760iisy_Link2"
+                    boundingObject DEF simplify_link2 Mesh {
+                      url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_link2.stl"
+                    }
+                    physics Physics {
+                      density -1
+                      mass 3.212000
+                      centerOfMass [ 0.000000 0.000000 0.000000 ]
+                      inertiaMatrix [
+                        5.216922e-02 4.233111e-03 5.344257e-02
+                        0.000000e+00 0.000000e+00 0.000000e+00
+                      ]
+                    }
+                  }
+                }
+              ]
+              name "LBR3R760iisy_Link1"
+              boundingObject DEF simplify_link1 Mesh {
+                url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_link1.stl"
+              }
+              physics Physics {
+                density -1
+                mass 3.249200
+                centerOfMass [ 0.000000 0.000000 0.000000 ]
+                inertiaMatrix [
+                  8.645404e-03 5.731035e-03 9.747926e-03
+                  0.000000e+00 0.000000e+00 0.000000e+00
+                ]
+              }
+            }
+          }
+        ]
+        name "LBR3R760iisy_FixedBase"
+        boundingObject DEF simplify_robotBase Mesh {
+          url "/home/peto/catkin_ws/src/LBR3R760iisy/meshes/simplify_robotBase.stl"
+        }
+        physics Physics {
+          density -1
+          mass 3.683200
+          centerOfMass [ 0.000000 0.000000 0.000000 ]
+          inertiaMatrix [
+            5.000000e-04 5.000000e-04 5.000000e-04
+            0.000000e+00 0.000000e+00 0.000000e+00
+          ]
+        }
+      }
+    ]
+    name IS name
+  }
+}

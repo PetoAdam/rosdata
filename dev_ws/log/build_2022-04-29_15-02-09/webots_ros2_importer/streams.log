@@ -1,0 +1,22 @@
+[0.543s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_importer': PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /home/peto/dev_ws/build/webots_ros2_importer/build install --prefix /home/peto/dev_ws/install/webots_ros2_importer --record /home/peto/dev_ws/build/webots_ros2_importer/install.log --single-version-externally-managed
+[0.721s] running egg_info
+[0.722s] writing ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/PKG-INFO
+[0.723s] writing dependency_links to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/dependency_links.txt
+[0.723s] writing entry points to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/entry_points.txt
+[0.723s] writing requirements to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/requires.txt
+[0.723s] writing top-level names to ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/top_level.txt
+[0.747s] reading manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.748s] writing manifest file '../../../build/webots_ros2_importer/webots_ros2_importer.egg-info/SOURCES.txt'
+[0.748s] running build
+[0.748s] running build_py
+[0.749s] running install
+[0.749s] running install_lib
+[0.751s] running install_data
+[0.751s] running install_egg_info
+[0.753s] removing '/home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer-1.2.2-py3.8.egg-info' (and everything under it)
+[0.754s] Copying ../../../build/webots_ros2_importer/webots_ros2_importer.egg-info to /home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages/webots_ros2_importer-1.2.2-py3.8.egg-info
+[0.754s] running install_scripts
+[0.768s] Installing urdf2proto script to /home/peto/dev_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.768s] Installing xacro2proto script to /home/peto/dev_ws/install/webots_ros2_importer/lib/webots_ros2_importer
+[0.769s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_importer/install.log'
+[0.786s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_importer' returned '0': PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_importer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_importer build --build-base /home/peto/dev_ws/build/webots_ros2_importer/build install --prefix /home/peto/dev_ws/install/webots_ros2_importer --record /home/peto/dev_ws/build/webots_ros2_importer/install.log --single-version-externally-managed

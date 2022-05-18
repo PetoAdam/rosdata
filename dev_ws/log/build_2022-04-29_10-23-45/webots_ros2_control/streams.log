@@ -1,0 +1,88 @@
+[0.020s] Invoking command in '/home/peto/dev_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peto/dev_ws/src/webots_ros2/webots_ros2_control -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/webots_ros2_control
+[0.093s] -- The C compiler identification is GNU 9.4.0
+[0.131s] -- The CXX compiler identification is GNU 9.4.0
+[0.135s] -- Check for working C compiler: /usr/bin/cc
+[0.190s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.191s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.254s] -- Detecting C compile features
+[0.254s] -- Detecting C compile features - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.325s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.406s] -- Detecting CXX compile features
+[0.407s] -- Detecting CXX compile features - done
+[0.409s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.428s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.499s] -- Found hardware_interface: 1.4.0 (/opt/ros/galactic/share/hardware_interface/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.532s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.594s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.620s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found controller_manager: 1.4.0 (/opt/ros/galactic/share/controller_manager/cmake)
+[1.117s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.119s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.134s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.135s] -- Looking for pthread.h
+[1.191s] -- Looking for pthread.h - found
+[1.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.247s] -- Looking for pthread_create in pthreads
+[1.296s] -- Looking for pthread_create in pthreads - not found
+[1.297s] -- Looking for pthread_create in pthread
+[1.353s] -- Looking for pthread_create in pthread - found
+[1.355s] -- Found Threads: TRUE  
+[1.614s] -- Found webots_ros2_driver: 1.2.2 (/home/peto/dev_ws/install/webots_ros2_driver/share/webots_ros2_driver/cmake)
+[2.396s] -- Configuring done
+[2.461s] -- Generating done
+[2.463s] -- Build files have been written to: /home/peto/dev_ws/build/webots_ros2_control
+[2.474s] Invoked command in '/home/peto/dev_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peto/dev_ws/src/webots_ros2/webots_ros2_control -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/webots_ros2_control
+[2.475s] Invoking command in '/home/peto/dev_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peto/dev_ws/build/webots_ros2_control -- -j1 -l1
+[2.510s] [35m[1mScanning dependencies of target webots_ros2_control_system[0m
+[2.554s] [ 25%] [32mBuilding CXX object CMakeFiles/webots_ros2_control_system.dir/src/Ros2ControlSystem.cpp.o[0m
+[5.073s] [ 50%] [32m[1mLinking CXX shared library libwebots_ros2_control_system.so[0m
+[5.195s] [ 50%] Built target webots_ros2_control_system
+[5.204s] [35m[1mScanning dependencies of target webots_ros2_control[0m
+[5.253s] [ 75%] [32mBuilding CXX object CMakeFiles/webots_ros2_control.dir/src/Ros2Control.cpp.o[0m
+[9.324s] [100%] [32m[1mLinking CXX shared library libwebots_ros2_control.so[0m
+[9.576s] [100%] Built target webots_ros2_control
+[9.589s] Invoked command in '/home/peto/dev_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peto/dev_ws/build/webots_ros2_control -- -j1 -l1
+[9.610s] Invoking command in '/home/peto/dev_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peto/dev_ws/build/webots_ros2_control
+[9.619s] -- Install configuration: ""
+[9.619s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control.xml
+[9.620s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control_system.xml
+[9.620s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/lib/libwebots_ros2_control.so
+[9.625s] -- Set runtime path of "/home/peto/dev_ws/install/webots_ros2_control/lib/libwebots_ros2_control.so" to ""
+[9.625s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/lib/libwebots_ros2_control_system.so
+[9.626s] -- Set runtime path of "/home/peto/dev_ws/install/webots_ros2_control/lib/libwebots_ros2_control_system.so" to ""
+[9.626s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/include
+[9.626s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control
+[9.626s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2ControlSystemInterface.hpp
+[9.626s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2Control.hpp
+[9.626s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2ControlSystem.hpp
+[9.627s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.sh
+[9.627s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.dsv
+[9.627s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/package_run_dependencies/webots_ros2_control
+[9.627s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/parent_prefix_path/webots_ros2_control
+[9.628s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.sh
+[9.628s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.dsv
+[9.628s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/path.sh
+[9.628s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/path.dsv
+[9.628s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.bash
+[9.628s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.sh
+[9.629s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.zsh
+[9.629s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.dsv
+[9.629s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/package.dsv
+[9.629s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/packages/webots_ros2_control
+[9.629s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_control
+[9.629s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_control__pluginlib__plugin/webots_ros2_control
+[9.630s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.630s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.630s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[9.630s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig.cmake
+[9.630s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig-version.cmake
+[9.631s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/package.xml
+[9.635s] Invoked command in '/home/peto/dev_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peto/dev_ws/build/webots_ros2_control

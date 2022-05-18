@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="LBRiiwa14">
+  <joint name="LBRiiwa14_BasicJoint3" type="revolute">
+    <axis xyz="0.0 0.0 1.0"/>
+    <child link="URDFSerialAxis3"/>
+    <limit effort="2.513932E2" lower="-2.9691E0" upper="2.9691E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.2045"/>
+    <parent link="URDFSerialAxis2"/>
+  </joint>
+  <joint name="LBRiiwa14_BasicJoint1" type="revolute">
+    <axis xyz="0.0 0.0 1.0"/>
+    <child link="URDFSerialAxis1"/>
+    <limit effort="2.513932E2" lower="-2.9691E0" upper="2.9691E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.1575"/>
+    <parent link="URDFFixedBase"/>
+  </joint>
+  <joint name="LBRiiwa14_BaseJoint" type="fixed">
+    <child link="URDFFixedBase"/>
+    <parent link="world"/>
+  </joint>
+  <joint name="LBRiiwa14_BasicJoint4" type="revolute">
+    <axis xyz="0.0 1.0 0.0"/>
+    <child link="URDFSerialAxis4"/>
+    <limit effort="2.513932E2" lower="-2.0964E0" upper="2.0964E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.2155"/>
+    <parent link="URDFSerialAxis3"/>
+  </joint>
+  <joint name="LBRiiwa14_BasicJoint5" type="revolute">
+    <axis xyz="0.0 0.0 1.0"/>
+    <child link="URDFSerialAxis5"/>
+    <limit effort="2.513932E2" lower="-2.9691E0" upper="2.9691E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.1845"/>
+    <parent link="URDFSerialAxis4"/>
+  </joint>
+  <joint name="LBRiiwa14_BasicJoint6" type="revolute">
+    <axis xyz="0.0 1.0 0.0"/>
+    <child link="URDFSerialAxis6"/>
+    <limit effort="2.513932E2" lower="-2.0964E0" upper="2.0964E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.2155"/>
+    <parent link="URDFSerialAxis5"/>
+  </joint>
+  <joint name="LBRiiwa14_BasicJoint2" type="revolute">
+    <axis xyz="0.0 1.0 0.0"/>
+    <child link="URDFSerialAxis2"/>
+    <limit effort="2.513932E2" lower="-2.0964E0" upper="2.0964E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.2025"/>
+    <parent link="URDFSerialAxis1"/>
+  </joint>
+  <joint name="LBRiiwa14_BasicJoint7" type="revolute">
+    <axis xyz="0.0 0.0 1.0"/>
+    <child link="URDFSerialAxis7"/>
+    <limit effort="2.513932E2" lower="-2.9691E0" upper="2.9691E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.081"/>
+    <parent link="URDFSerialAxis6"/>
+  </joint>
+  <link name="URDFSerialAxis6">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_6_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.007" ixy="0.0" ixz="0.0" iyy="0.006" iyz="0.0" izz="0.005"/>
+      <mass value="2.458E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_6_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="URDFSerialAxis1">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_1_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.06907" ixy="0.0" ixz="0.0" iyy="0.0711" iyz="0.0" izz="0.02"/>
+      <mass value="6.495E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_1_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="URDFSerialAxis4">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_4_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.04" ixy="0.0" ixz="0.0" iyy="0.03" iyz="0.0" izz="0.01"/>
+      <mass value="5.41E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_4_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="URDFFixedBase">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_0_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="5.0E-4" ixy="0.0" ixz="0.0" iyy="5.0E-4" iyz="0.0" izz="5.0E-4"/>
+      <mass value="3.2832E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_0_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="URDFSerialAxis2">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_2_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.08" ixy="0.0" ixz="0.0" iyy="0.08" iyz="0.0" izz="0.01"/>
+      <mass value="8.365E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_2_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="URDFSerialAxis7">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_7_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="3.0E-4" ixy="0.0" ixz="0.0" iyy="3.0E-4" iyz="0.0" izz="5.0E-4"/>
+      <mass value="6.27E-1"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_7_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="URDFSerialAxis5">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_5_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      <mass value="1.867E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_5_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="world"/>
+  <link name="URDFSerialAxis3">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_3_collision.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.02" ixy="0.0" ixz="0.0" iyy="0.02" iyz="0.0" izz="0.06"/>
+      <mass value="2.5697E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_3_hull.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <transmission name="trans_LBRiiwa14_BasicJoint1">
+    <actuator name="LBRiiwa14_BasicJoint1_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBRiiwa14_BasicJoint3">
+    <actuator name="LBRiiwa14_BasicJoint3_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint3">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBRiiwa14_BasicJoint2">
+    <actuator name="LBRiiwa14_BasicJoint2_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBRiiwa14_BasicJoint7">
+    <actuator name="LBRiiwa14_BasicJoint7_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint7">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBRiiwa14_BasicJoint5">
+    <actuator name="LBRiiwa14_BasicJoint5_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint5">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBRiiwa14_BasicJoint6">
+    <actuator name="LBRiiwa14_BasicJoint6_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint6">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBRiiwa14_BasicJoint4">
+    <actuator name="LBRiiwa14_BasicJoint4_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBRiiwa14_BasicJoint4">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+</robot>

@@ -1,0 +1,61 @@
+[0.012s] Invoking command in '/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy': /usr/bin/cmake /home/peto/dev_ws/src/LBR3R760iisy -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/src/LBR3R760iisy/install/LBR3R760iisy
+[0.094s] -- The C compiler identification is GNU 9.4.0
+[0.147s] -- The CXX compiler identification is GNU 9.4.0
+[0.152s] -- Check for working C compiler: /usr/bin/cc
+[0.202s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.203s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.267s] -- Detecting C compile features
+[0.268s] -- Detecting C compile features - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.334s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.402s] -- Detecting CXX compile features
+[0.402s] -- Detecting CXX compile features - done
+[0.404s] -- Using CATKIN_DEVEL_PREFIX: /home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/devel
+[0.404s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.405s] -- This workspace overlays: /opt/ros/noetic
+[0.423s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.424s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.424s] -- Using Debian Python package layout
+[0.453s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.453s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.546s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.546s] -- Call enable_testing()
+[0.548s] -- Using CATKIN_TEST_RESULTS_DIR: /home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/test_results
+[0.783s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.783s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.784s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.803s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.805s] -- Found Threads: TRUE  
+[0.809s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.851s] -- catkin 0.8.10
+[0.851s] -- BUILD_SHARED_LIBS is on
+[1.043s] Traceback (most recent call last):
+[1.043s]   File "/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/catkin_generated/generate_cached_setup.py", line 22, in <module>
+[1.043s]     code = generate_environment_script('/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/devel/env.sh')
+[1.043s]   File "/opt/ros/noetic/lib/python3/dist-packages/catkin/environment_cache.py", line 63, in generate_environment_script
+[1.043s]     env_after = ast.literal_eval(output.decode('utf8'))
+[1.043s]   File "/usr/lib/python3.8/ast.py", line 59, in literal_eval
+[1.043s]     node_or_string = parse(node_or_string, mode='eval')
+[1.043s]   File "/usr/lib/python3.8/ast.py", line 47, in parse
+[1.043s]     return compile(source, filename, mode, flags,
+[1.043s]   File "<unknown>", line 1
+[1.044s]     ROS_DISTRO was set to 'galactic' before. Please make sure that the environment does not mix paths from different distributions.
+[1.044s]                ^
+[1.044s] SyntaxError: invalid syntax
+[1.060s] CMake Error at /opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+[1.060s]   execute_process(/usr/bin/python3
+[1.060s]   "/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/catkin_generated/generate_cached_setup.py")
+[1.060s]   returned error code 1
+[1.061s] Call Stack (most recent call first):
+[1.061s]   /opt/ros/noetic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+[1.061s]   /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+[1.061s]   CMakeLists.txt:10 (find_package)
+[1.061s] 
+[1.061s] 
+[1.062s] -- Configuring incomplete, errors occurred!
+[1.062s] See also "/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/CMakeFiles/CMakeOutput.log".
+[1.062s] See also "/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy/CMakeFiles/CMakeError.log".
+[1.068s] Invoked command in '/home/peto/dev_ws/src/LBR3R760iisy/build/LBR3R760iisy' returned '1': /usr/bin/cmake /home/peto/dev_ws/src/LBR3R760iisy -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/src/LBR3R760iisy/install/LBR3R760iisy

@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/peto/dev_ws/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/peto/dev_ws/src/webots_ros2_package -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/admittance_controller
+[0.031s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.098s] -- Found controller_interface: 1.4.0 (/opt/ros/galactic/share/controller_interface/cmake)
+[0.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.118s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.601s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.602s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.616s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.798s] -- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)
+[0.830s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.830s]   ament_target_dependencies() the passed package name
+[0.830s]   'external_torque_sensor_broadcaster' was not found before
+[0.830s] Call Stack (most recent call first):
+[0.830s]   CMakeLists.txt:28 (ament_target_dependencies)
+[0.830s] 
+[0.830s] 
+[0.832s] -- Configuring incomplete, errors occurred!
+[0.832s] See also "/home/peto/dev_ws/build/admittance_controller/CMakeFiles/CMakeOutput.log".
+[0.832s] See also "/home/peto/dev_ws/build/admittance_controller/CMakeFiles/CMakeError.log".
+[0.840s] Invoked command in '/home/peto/dev_ws/build/admittance_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/peto/dev_ws/src/webots_ros2_package -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/admittance_controller

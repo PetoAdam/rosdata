@@ -1,0 +1,61 @@
+[0.040s] Invoking command in '/home/peto/catkin_ws/src/build/Project': /usr/bin/cmake /home/peto/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/peto/catkin_ws/src/install/Project
+[0.094s] -- The C compiler identification is GNU 9.4.0
+[0.146s] -- The CXX compiler identification is GNU 9.4.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.205s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.206s] -- Detecting C compiler ABI info
+[0.262s] -- Detecting C compiler ABI info - done
+[0.274s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.341s] -- Detecting CXX compiler ABI info
+[0.402s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.686s] -- Configuring incomplete, errors occurred!
+[0.686s] See also "/home/peto/catkin_ws/src/build/Project/CMakeFiles/CMakeOutput.log".
+[0.688s] CMake Error at CMakeLists.txt:22 (message):
+[0.688s]   Search for 'catkin' in workspace failed (catkin_find_pkg catkin
+[0.692s]   /home/peto/catkin_ws/src): Traceback (most recent call last):
+[0.692s] 
+[0.692s]     File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 597, in parse_package_string
+[0.692s]       root = dom.parseString(data)
+[0.692s]     File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[0.692s]       return expatbuilder.parseString(string)
+[0.692s]     File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[0.692s]       return builder.parseString(string)
+[0.692s]     File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[0.692s]       parser.Parse(string, True)
+[0.692s] 
+[0.692s]   xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7,
+[0.692s]   column 52
+[0.692s] 
+[0.692s]   
+[0.692s] 
+[0.692s]   During handling of the above exception, another exception occurred:
+[0.692s] 
+[0.692s]   
+[0.692s] 
+[0.692s]   Traceback (most recent call last):
+[0.692s] 
+[0.693s]     File "/usr/bin/catkin_find_pkg", line 33, in <module>
+[0.693s]       sys.exit(load_entry_point('catkin-pkg==0.4.24', 'console_scripts', 'catkin_find_pkg')())
+[0.693s]     File "/usr/lib/python3/dist-packages/catkin_pkg/cli/find_pkg.py", line 20, in main
+[0.693s]       packages = find_packages(args.base_path)
+[0.693s]     File "/usr/lib/python3/dist-packages/catkin_pkg/packages.py", line 87, in find_packages
+[0.693s]       packages = find_packages_allowing_duplicates(basepath, exclude_paths=exclude_paths, exclude_subspaces=exclude_subspaces, warnings=warnings)
+[0.693s]     File "/usr/lib/python3/dist-packages/catkin_pkg/packages.py", line 147, in find_packages_allowing_duplicates
+[0.693s]       parsed_package = parse_package_string(
+[0.693s]     File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 599, in parse_package_string
+[0.693s]       raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.693s] 
+[0.693s]   catkin_pkg.package.InvalidPackage: Error(s) in package
+[0.693s]   '/home/peto/catkin_ws/src/LBR3R760iisy/package.xml':
+[0.693s] 
+[0.693s]   The manifest contains invalid XML:
+[0.693s] 
+[0.693s]   not well-formed (invalid token): line 7, column 52
+[0.693s] 
+[0.693s] 
+[0.693s] Invoked command in '/home/peto/catkin_ws/src/build/Project' returned '1': /usr/bin/cmake /home/peto/catkin_ws/src -DCMAKE_INSTALL_PREFIX=/home/peto/catkin_ws/src/install/Project

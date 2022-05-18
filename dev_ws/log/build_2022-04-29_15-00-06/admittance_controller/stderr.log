@@ -1,0 +1,19 @@
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findexternal_torque_sensor_broadcaster.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "external_torque_sensor_broadcaster", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "external_torque_sensor_broadcaster" with any of the following names:
+
+    external_torque_sensor_broadcasterConfig.cmake
+    external_torque_sensor_broadcaster-config.cmake
+
+  Add the installation prefix of "external_torque_sensor_broadcaster" to
+  CMAKE_PREFIX_PATH or set "external_torque_sensor_broadcaster_DIR" to a
+  directory containing one of the above files.  If
+  "external_torque_sensor_broadcaster" provides a separate development
+  package or SDK, be sure it has been installed.
+
+

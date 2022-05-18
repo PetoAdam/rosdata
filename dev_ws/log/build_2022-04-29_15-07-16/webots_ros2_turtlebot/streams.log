@@ -1,0 +1,20 @@
+[0.547s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_turtlebot': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/peto/dev_ws/build/webots_ros2_turtlebot/build install --prefix /home/peto/dev_ws/install/webots_ros2_turtlebot --record /home/peto/dev_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed
+[0.716s] running egg_info
+[0.717s] writing ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/PKG-INFO
+[0.718s] writing dependency_links to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/dependency_links.txt
+[0.718s] writing entry points to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/entry_points.txt
+[0.718s] writing requirements to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/requires.txt
+[0.718s] writing top-level names to ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/top_level.txt
+[0.742s] reading manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[0.743s] writing manifest file '../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info/SOURCES.txt'
+[0.743s] running build
+[0.743s] running build_py
+[0.743s] running install
+[0.744s] running install_lib
+[0.745s] running install_data
+[0.745s] running install_egg_info
+[0.747s] removing '/home/peto/dev_ws/install/webots_ros2_turtlebot/lib/python3.8/site-packages/webots_ros2_turtlebot-1.2.2-py3.8.egg-info' (and everything under it)
+[0.747s] Copying ../../../build/webots_ros2_turtlebot/webots_ros2_turtlebot.egg-info to /home/peto/dev_ws/install/webots_ros2_turtlebot/lib/python3.8/site-packages/webots_ros2_turtlebot-1.2.2-py3.8.egg-info
+[0.748s] running install_scripts
+[0.763s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_turtlebot/install.log'
+[0.782s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_turtlebot' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_turtlebot/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_turtlebot build --build-base /home/peto/dev_ws/build/webots_ros2_turtlebot/build install --prefix /home/peto/dev_ws/install/webots_ros2_turtlebot --record /home/peto/dev_ws/build/webots_ros2_turtlebot/install.log --single-version-externally-managed

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:15[m[K:
+[01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:29:10:[m[K [01;31m[Kfatal error: [m[Kexternal_torque_sensor_broadcaster/external_torque_sensor.hpp: No such file or directory
+   29 | #include [01;31m[K"external_torque_sensor_broadcaster/external_torque_sensor.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:63: CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/admittance_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

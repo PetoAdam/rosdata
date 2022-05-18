@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/peto/dev_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peto/dev_ws/build/webots_ros2_control -- -j1 -l1
+[0.084s] [ 50%] Built target webots_ros2_control_system
+[0.112s] [100%] Built target webots_ros2_control
+[0.123s] Invoked command in '/home/peto/dev_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peto/dev_ws/build/webots_ros2_control -- -j1 -l1
+[0.147s] Invoking command in '/home/peto/dev_ws/build/webots_ros2_control': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peto/dev_ws/build/webots_ros2_control
+[0.156s] -- Install configuration: ""
+[0.156s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control.xml
+[0.156s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/webots_ros2_control_system.xml
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/lib/libwebots_ros2_control.so
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/lib/libwebots_ros2_control_system.so
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/include
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2ControlSystemInterface.hpp
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2Control.hpp
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/include/webots_ros2_control/Ros2ControlSystem.hpp
+[0.157s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.sh
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/library_path.dsv
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/package_run_dependencies/webots_ros2_control
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/parent_prefix_path/webots_ros2_control
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/path.sh
+[0.158s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/environment/path.dsv
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.bash
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.sh
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.zsh
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/local_setup.dsv
+[0.159s] -- Installing: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/package.dsv
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/packages/webots_ros2_control
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_driver__pluginlib__plugin/webots_ros2_control
+[0.159s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/ament_index/resource_index/webots_ros2_control__pluginlib__plugin/webots_ros2_control
+[0.160s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.160s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.160s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.160s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig.cmake
+[0.160s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/cmake/webots_ros2_controlConfig-version.cmake
+[0.160s] -- Up-to-date: /home/peto/dev_ws/install/webots_ros2_control/share/webots_ros2_control/package.xml
+[0.163s] Invoked command in '/home/peto/dev_ws/build/webots_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peto/dev_ws/build/webots_ros2_control

@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/peto/dev_ws/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/peto/dev_ws/src/webots_ros2_package -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/admittance_controller
+[0.036s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.104s] -- Found controller_interface: 1.4.0 (/opt/ros/galactic/share/controller_interface/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.125s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.617s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.618s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.632s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.820s] -- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)
+[0.939s] -- Configuring done
+[0.991s] -- Generating done
+[0.993s] -- Build files have been written to: /home/peto/dev_ws/build/admittance_controller
+[1.001s] Invoked command in '/home/peto/dev_ws/build/admittance_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/peto/dev_ws/src/webots_ros2_package -DCMAKE_INSTALL_PREFIX=/home/peto/dev_ws/install/admittance_controller
+[1.002s] Invoking command in '/home/peto/dev_ws/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/admittance_controller -- -j1 -l1
+[1.038s] [35m[1mScanning dependencies of target admittance_controller[0m
+[1.142s] [ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o[0m
+[1.346s] In file included from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:15[m[K:
+[1.346s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:29:10:[m[K [01;31m[Kfatal error: [m[Kexternal_torque_sensor_broadcaster/external_torque_sensor.hpp: No such file or directory
+[1.346s]    29 | #include [01;31m[K"external_torque_sensor_broadcaster/external_torque_sensor.hpp"[m[K
+[1.346s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.346s] compilation terminated.
+[1.349s] make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:63: CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o] Error 1
+[1.353s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/admittance_controller.dir/all] Error 2
+[1.353s] make: *** [Makefile:141: all] Error 2
+[1.353s] Invoked command in '/home/peto/dev_ws/build/admittance_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/admittance_controller -- -j1 -l1

@@ -1,0 +1,35 @@
+[0.562s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_tiago': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_tiago build --build-base /home/peto/dev_ws/build/webots_ros2_tiago/build install --prefix /home/peto/dev_ws/install/webots_ros2_tiago --record /home/peto/dev_ws/build/webots_ros2_tiago/install.log --single-version-externally-managed
+[0.733s] running egg_info
+[0.733s] creating ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info
+[0.734s] writing ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/dependency_links.txt
+[0.735s] writing entry points to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/entry_points.txt
+[0.735s] writing requirements to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/requires.txt
+[0.735s] writing top-level names to ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/top_level.txt
+[0.736s] writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+[0.736s] reading manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+[0.737s] writing manifest file '../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info/SOURCES.txt'
+[0.737s] running build
+[0.737s] running install
+[0.738s] running install_data
+[0.738s] creating /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index
+[0.739s] creating /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index/resource_index
+[0.739s] creating /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+[0.739s] copying resource/webots_ros2_tiago -> /home/peto/dev_ws/install/webots_ros2_tiago/share/ament_index/resource_index/packages
+[0.739s] creating /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+[0.739s] copying launch/robot_launch.py -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/launch
+[0.739s] creating /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[0.739s] copying resource/tiago_webots.urdf -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[0.740s] copying resource/ros2_control.yml -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[0.740s] copying resource/default.rviz -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[0.740s] copying resource/map.pgm -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[0.740s] copying resource/map.yaml -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/resource
+[0.740s] copying package.xml -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago
+[0.741s] creating /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[0.741s] copying worlds/default.wbt -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[0.741s] copying worlds/.default.wbproj -> /home/peto/dev_ws/install/webots_ros2_tiago/share/webots_ros2_tiago/worlds
+[0.741s] running install_egg_info
+[0.743s] Copying ../../../build/webots_ros2_tiago/webots_ros2_tiago.egg-info to /home/peto/dev_ws/install/webots_ros2_tiago/lib/python3.8/site-packages/webots_ros2_tiago-1.2.2-py3.8.egg-info
+[0.743s] running install_scripts
+[0.760s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_tiago/install.log'
+[0.775s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_tiago' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_tiago/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_tiago build --build-base /home/peto/dev_ws/build/webots_ros2_tiago/build install --prefix /home/peto/dev_ws/install/webots_ros2_tiago --record /home/peto/dev_ws/build/webots_ros2_tiago/install.log --single-version-externally-managed

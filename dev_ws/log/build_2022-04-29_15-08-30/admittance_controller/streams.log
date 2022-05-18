@@ -1,0 +1,68 @@
+[0.008s] Invoking command in '/home/peto/dev_ws/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/admittance_controller -- -j1 -l1
+[0.053s] [35m[1mScanning dependencies of target admittance_controller[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o[0m
+[1.648s] In file included from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:15[m[K:
+[1.649s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:93:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ksemantic_components[m[K’ was not declared in this scope
+[1.649s]    93 |   std::unique_ptr<[01;31m[Ksemantic_components[m[K::ExternalTorqueSensor> external_torque_sensor_;
+[1.649s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.649s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:93:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.649s]    93 |   std::unique_ptr<semantic_components::ExternalTorqueSensor[01;31m[K>[m[K external_torque_sensor_;
+[1.649s]       |                                                            [01;31m[K^[m[K
+[1.649s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:93:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.684s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:81:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontroller_interface::return_type admittance_controller::AdmittanceController::update()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[1.684s]    81 |   controller_interface::return_type [01;31m[Kupdate[m[K() override;
+[1.685s]       |                                     [01;31m[K^~~~~~[m[K
+[1.866s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:[m[K In member function ‘[01m[Kvirtual admittance_controller::CallbackReturn admittance_controller::AdmittanceController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[1.866s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:113:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ksemantic_components[m[K’ was not declared in this scope
+[1.866s]   113 |     external_torque_sensor_ = std::make_unique<[01;31m[Ksemantic_components[m[K::ExternalTorqueSensor>(
+[1.866s]       |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.867s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:113:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.867s]   113 |     external_torque_sensor_ = std::[01;31m[Kmake_unique<semantic_components::ExternalTorqueSensor>[m[K(
+[1.867s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.867s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:114:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksemantic_components[m[K’ is not a class, namespace, or enumeration
+[1.867s]   114 |       [01;31m[Ksemantic_components[m[K::ExternalTorqueSensor(sensor_name_));
+[1.867s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.887s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::InterfaceConfiguration admittance_controller::AdmittanceController::state_interface_configuration() const[m[K’:
+[1.887s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:148:52:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[1.887s]   148 |   auto sensor_state_names = external_torque_sensor_[01;31m[K->[m[Kget_state_interface_names();
+[1.887s]       |                                                    [01;31m[K^~[m[K
+[1.891s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:[m[K In member function ‘[01m[Kvirtual admittance_controller::CallbackReturn admittance_controller::AdmittanceController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.891s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:200:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[1.891s]   200 |   external_torque_sensor_[01;31m[K->[m[Kassign_loaned_state_interfaces(state_interfaces_);
+[1.891s]       |                          [01;31m[K^~[m[K
+[1.891s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:[m[K In member function ‘[01m[Kvirtual admittance_controller::CallbackReturn admittance_controller::AdmittanceController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[1.891s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:214:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[1.892s]   214 |   external_torque_sensor_[01;31m[K->[m[Krelease_interfaces();
+[1.892s]       |                          [01;31m[K^~[m[K
+[1.893s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:[m[K In member function ‘[01m[Kcontroller_interface::return_type admittance_controller::AdmittanceController::update()[m[K’:
+[1.893s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:237:45:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[1.893s]   237 |   auto sensor_data = external_torque_sensor_[01;31m[K->[m[Kget_torques();
+[1.893s]       |                                             [01;31m[K^~[m[K
+[1.893s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:256:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.893s]   256 |     double [01;35m[Ku[m[K = qda + 1/mass_[index]*(stiffness_[index]*(qd-q) + damping_[index]*(qdv-qv) + external_torques[index]);
+[1.893s]       |            [01;35m[K^[m[K
+[2.999s] In file included from [01m[K/opt/ros/galactic/include/class_loader/class_loader_core.hpp:57[m[K,
+[3.001s]                  from [01m[K/opt/ros/galactic/include/class_loader/class_loader.hpp:55[m[K,
+[3.001s]                  from [01m[K/opt/ros/galactic/include/pluginlib/class_list_macros.hpp:40[m[K,
+[3.001s]                  from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:267[m[K:
+[3.001s] /opt/ros/galactic/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = admittance_controller::AdmittanceController; B = controller_interface::ControllerInterface][m[K’:
+[3.001s] [01m[K/opt/ros/galactic/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[3.001s] [01m[K/opt/ros/galactic/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kadmittance_controller::AdmittanceController[m[K’
+[3.001s]   218 |     return [01;31m[Knew C[m[K;
+[3.001s]       |            [01;31m[K^~~~~[m[K
+[3.001s] In file included from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:15[m[K:
+[3.001s] [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kadmittance_controller::AdmittanceController[m[K’:
+[3.001s]    47 | class [01;36m[KAdmittanceController[m[K : public controller_interface::ControllerInterface
+[3.002s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[3.002s] In file included from [01m[K/home/peto/dev_ws/src/webots_ros2_package/include/admittance_controller/admittance_controller.hpp:22[m[K,
+[3.002s]                  from [01m[K/home/peto/dev_ws/src/webots_ros2_package/webots_ros2_package/admittance_controller.cpp:15[m[K:
+[3.002s] [01m[K/opt/ros/galactic/include/controller_interface/controller_interface.hpp:92:50:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn controller_interface::ControllerInterface::on_init()[m[K’
+[3.002s]    92 |   virtual LifecycleNodeInterface::CallbackReturn [01;36m[Kon_init[m[K() = 0;
+[3.002s]       |                                                  [01;36m[K^~~~~~~[m[K
+[3.002s] [01m[K/opt/ros/galactic/include/controller_interface/controller_interface.hpp:98:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual controller_interface::return_type controller_interface::ControllerInterface::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’
+[3.002s]    98 |   virtual return_type [01;36m[Kupdate[m[K(const rclcpp::Time & time, const rclcpp::Duration & period) = 0;
+[3.002s]       |                       [01;36m[K^~~~~~[m[K
+[3.744s] make[2]: *** [CMakeFiles/admittance_controller.dir/build.make:63: CMakeFiles/admittance_controller.dir/webots_ros2_package/admittance_controller.cpp.o] Error 1
+[3.747s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/admittance_controller.dir/all] Error 2
+[3.748s] make: *** [Makefile:141: all] Error 2
+[3.748s] Invoked command in '/home/peto/dev_ws/build/admittance_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/admittance_controller -- -j1 -l1

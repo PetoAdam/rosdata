@@ -1,0 +1,43 @@
+[0.579s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_mavic': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_core:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_mavic build --build-base /home/peto/dev_ws/build/webots_ros2_mavic/build install --prefix /home/peto/dev_ws/install/webots_ros2_mavic --record /home/peto/dev_ws/build/webots_ros2_mavic/install.log --single-version-externally-managed
+[0.747s] running egg_info
+[0.748s] creating ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info
+[0.748s] writing ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/requires.txt
+[0.749s] writing top-level names to ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/top_level.txt
+[0.750s] writing manifest file '../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[0.773s] reading manifest file '../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[0.776s] writing manifest file '../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info/SOURCES.txt'
+[0.776s] running build
+[0.776s] running build_py
+[0.776s] creating /home/peto/dev_ws/build/webots_ros2_mavic/build
+[0.776s] creating /home/peto/dev_ws/build/webots_ros2_mavic/build/lib
+[0.776s] creating /home/peto/dev_ws/build/webots_ros2_mavic/build/lib/webots_ros2_mavic
+[0.777s] copying webots_ros2_mavic/mavic_driver.py -> /home/peto/dev_ws/build/webots_ros2_mavic/build/lib/webots_ros2_mavic
+[0.777s] copying webots_ros2_mavic/__init__.py -> /home/peto/dev_ws/build/webots_ros2_mavic/build/lib/webots_ros2_mavic
+[0.777s] running install
+[0.778s] running install_lib
+[0.778s] creating /home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages/webots_ros2_mavic
+[0.779s] copying /home/peto/dev_ws/build/webots_ros2_mavic/build/lib/webots_ros2_mavic/mavic_driver.py -> /home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages/webots_ros2_mavic
+[0.779s] copying /home/peto/dev_ws/build/webots_ros2_mavic/build/lib/webots_ros2_mavic/__init__.py -> /home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages/webots_ros2_mavic
+[0.779s] byte-compiling /home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages/webots_ros2_mavic/mavic_driver.py to mavic_driver.cpython-38.pyc
+[0.781s] byte-compiling /home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages/webots_ros2_mavic/__init__.py to __init__.cpython-38.pyc
+[0.781s] running install_data
+[0.782s] creating /home/peto/dev_ws/install/webots_ros2_mavic/share/ament_index
+[0.782s] creating /home/peto/dev_ws/install/webots_ros2_mavic/share/ament_index/resource_index
+[0.782s] creating /home/peto/dev_ws/install/webots_ros2_mavic/share/ament_index/resource_index/packages
+[0.782s] copying resource/webots_ros2_mavic -> /home/peto/dev_ws/install/webots_ros2_mavic/share/ament_index/resource_index/packages
+[0.782s] creating /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/launch
+[0.789s] copying launch/robot_launch.py -> /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/launch
+[0.789s] creating /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/worlds
+[0.789s] copying worlds/mavic_world.wbt -> /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/worlds
+[0.789s] copying worlds/.mavic_world.wbproj -> /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/worlds
+[0.789s] creating /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/resource
+[0.789s] copying resource/mavic_webots.urdf -> /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic/resource
+[0.790s] copying package.xml -> /home/peto/dev_ws/install/webots_ros2_mavic/share/webots_ros2_mavic
+[0.790s] running install_egg_info
+[0.791s] Copying ../../../build/webots_ros2_mavic/webots_ros2_mavic.egg-info to /home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages/webots_ros2_mavic-1.2.2-py3.8.egg-info
+[0.792s] running install_scripts
+[0.804s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_mavic/install.log'
+[0.822s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_mavic' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_core:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_mavic/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_core/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_mavic build --build-base /home/peto/dev_ws/build/webots_ros2_mavic/build install --prefix /home/peto/dev_ws/install/webots_ros2_mavic --record /home/peto/dev_ws/build/webots_ros2_mavic/install.log --single-version-externally-managed

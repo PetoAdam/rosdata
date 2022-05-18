@@ -1,0 +1,2 @@
+Invoking command in '/home/peto/dev_ws/build/admittance_controller': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/admittance_controller -- -j1 -l1
+Invoked command in '/home/peto/dev_ws/build/admittance_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/peto/dev_ws/build/admittance_controller -- -j1 -l1

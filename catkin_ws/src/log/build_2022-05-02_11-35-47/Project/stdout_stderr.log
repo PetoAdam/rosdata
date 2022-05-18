@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring incomplete, errors occurred!
+See also "/home/peto/catkin_ws/src/build/Project/CMakeFiles/CMakeOutput.log".
+CMake Error at CMakeLists.txt:22 (message):
+  Search for 'catkin' in workspace failed (catkin_find_pkg catkin
+  /home/peto/catkin_ws/src): Traceback (most recent call last):
+
+    File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 597, in parse_package_string
+      root = dom.parseString(data)
+    File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+      return expatbuilder.parseString(string)
+    File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+      return builder.parseString(string)
+    File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+      parser.Parse(string, True)
+
+  xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7,
+  column 52
+
+  
+
+  During handling of the above exception, another exception occurred:
+
+  
+
+  Traceback (most recent call last):
+
+    File "/usr/bin/catkin_find_pkg", line 33, in <module>
+      sys.exit(load_entry_point('catkin-pkg==0.4.24', 'console_scripts', 'catkin_find_pkg')())
+    File "/usr/lib/python3/dist-packages/catkin_pkg/cli/find_pkg.py", line 20, in main
+      packages = find_packages(args.base_path)
+    File "/usr/lib/python3/dist-packages/catkin_pkg/packages.py", line 87, in find_packages
+      packages = find_packages_allowing_duplicates(basepath, exclude_paths=exclude_paths, exclude_subspaces=exclude_subspaces, warnings=warnings)
+    File "/usr/lib/python3/dist-packages/catkin_pkg/packages.py", line 147, in find_packages_allowing_duplicates
+      parsed_package = parse_package_string(
+    File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 599, in parse_package_string
+      raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+
+  catkin_pkg.package.InvalidPackage: Error(s) in package
+  '/home/peto/catkin_ws/src/LBR3R760iisy/package.xml':
+
+  The manifest contains invalid XML:
+
+  not well-formed (invalid token): line 7, column 52
+
+

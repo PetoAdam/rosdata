@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="LBR3R760iisy">
+  <joint name="LBR3R760iisy_BasicJoint3" type="revolute">
+    <axis xyz="0.0 1.0 0.0"/>
+    <child link="LBR3R760iisy_Link3"/>
+    <limit effort="5.0E0" lower="-2.61799387799E0" upper="2.61799387799E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.3"/>
+    <parent link="LBR3R760iisy_Link2"/>
+  </joint>
+  <joint name="LBR3R760iisy_BasicJoint1" type="revolute">
+    <axis xyz="0.0 0.0 1.0"/>
+    <child link="LBR3R760iisy_Link1"/>
+    <limit effort="5.0E0" lower="-3.2288591E0" upper="3.2288591E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.1264"/>
+    <parent link="LBR3R760iisy_FixedBase"/>
+  </joint>
+  <joint name="LBR3R760iisy_BaseJoint" type="fixed">
+    <child link="LBR3R760iisy_FixedBase"/>
+    <parent link="world"/>
+  </joint>
+  <joint name="LBR3R760iisy_BasicJoint4" type="revolute">
+    <axis xyz="1.0 0.0 0.0"/>
+    <child link="LBR3R760iisy_Link4"/>
+    <limit effort="5.0E0" lower="-3.05432619E0" upper="3.05432619E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.1292 0.0829 0.0"/>
+    <parent link="LBR3R760iisy_Link3"/>
+  </joint>
+  <joint name="LBR3R760iisy_BasicJoint5" type="revolute">
+    <axis xyz="0.0 1.0 0.0"/>
+    <child link="LBR3R760iisy_Link5"/>
+    <limit effort="5.0E0" lower="-1.919862177E0" upper="1.919862177E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.1708 0.0382 0.0"/>
+    <parent link="LBR3R760iisy_Link4"/>
+  </joint>
+  <joint name="LBR3R760iisy_BasicJoint6" type="revolute">
+    <axis xyz="1.0 0.0 0.0"/>
+    <child link="LBR3R760iisy_Link6"/>
+    <limit effort="5.0E0" lower="-3.839724354E0" upper="3.839724354E0" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0682 -0.0382 0.0"/>
+    <parent link="LBR3R760iisy_Link5"/>
+  </joint>
+  <joint name="LBR3R760iisy_BasicJoint2" type="revolute">
+    <axis xyz="0.0 1.0 0.0"/>
+    <child link="LBR3R760iisy_Link2"/>
+    <limit effort="5.0E0" lower="-4.0142572796E0" upper="8.726646E-1" velocity="2.0E0"/>
+    <origin rpy="-0.0 0.0 -0.0" xyz="0.0 -0.0829 0.0886"/>
+    <parent link="LBR3R760iisy_Link1"/>
+  </joint>
+  <link name="LBR3R760iisy_Link6">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link6.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.0014673917002994" ixy="0.0" ixz="0.0" iyy="0.00112131520678352" iyz="0.0" izz="0.00158160486913488"/>
+      <mass value="8.43E-1"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link6.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LBR3R760iisy_Link1">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link1.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00864540353780418" ixy="0.0" ixz="0.0" iyy="0.00573103463618732" iyz="0.0" izz="0.00974792600424334"/>
+      <mass value="3.2492E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link1.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LBR3R760iisy_Link4">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link4.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00244684891934666" ixy="0.0" ixz="0.0" iyy="0.00929300990970133" iyz="0.0" izz="0.00957902612033654"/>
+      <mass value="2.0138E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link4.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LBR3R760iisy_FixedBase">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/robotBase.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="5.0E-4" ixy="0.0" ixz="0.0" iyy="5.0E-4" iyz="0.0" izz="5.0E-4"/>
+      <mass value="3.6832E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/robotBase.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LBR3R760iisy_Link2">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link2.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.0521692170047944" ixy="0.0" ixz="0.0" iyy="0.0042331111850977" iyz="0.0" izz="0.0534425693052013"/>
+      <mass value="3.212E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link2.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="LBR3R760iisy_Link5">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link5.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.00236252846105637" ixy="0.0" ixz="0.0" iyy="0.00141854396142661" iyz="0.0" izz="0.0025813096143987"/>
+      <mass value="1.4418E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link5.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <link name="world"/>
+  <link name="LBR3R760iisy_Link3">
+    <collision>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link3.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </collision>
+    <inertial>
+      <inertia ixx="0.0113804888378926" ixy="0.0" ixz="0.0" iyy="0.00566536942404497" iyz="0.0" izz="0.0133950588482047"/>
+      <mass value="3.471E0"/>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="package://lbriisy/meshes/link3.stl"/>
+      </geometry>
+      <origin rpy="-0.0 0.0 -0.0" xyz="0.0 0.0 0.0"/>
+    </visual>
+  </link>
+  <transmission name="trans_LBR3R760iisy_BasicJoint1">
+    <actuator name="LBR3R760iisy_BasicJoint1_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBR3R760iisy_BasicJoint1">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBR3R760iisy_BasicJoint3">
+    <actuator name="LBR3R760iisy_BasicJoint3_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBR3R760iisy_BasicJoint3">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBR3R760iisy_BasicJoint2">
+    <actuator name="LBR3R760iisy_BasicJoint2_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBR3R760iisy_BasicJoint2">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBR3R760iisy_BasicJoint5">
+    <actuator name="LBR3R760iisy_BasicJoint5_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBR3R760iisy_BasicJoint5">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBR3R760iisy_BasicJoint6">
+    <actuator name="LBR3R760iisy_BasicJoint6_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBR3R760iisy_BasicJoint6">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+  <transmission name="trans_LBR3R760iisy_BasicJoint4">
+    <actuator name="LBR3R760iisy_BasicJoint4_motor">
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1.0</mechanicalReduction>
+    </actuator>
+    <joint name="LBR3R760iisy_BasicJoint4">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+  </transmission>
+</robot>

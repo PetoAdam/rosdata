@@ -1,0 +1,23 @@
+[0.536s] Invoking command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_epuck': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/peto/dev_ws/build/webots_ros2_epuck/build install --prefix /home/peto/dev_ws/install/webots_ros2_epuck --record /home/peto/dev_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed
+[0.707s] running egg_info
+[0.708s] writing ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/PKG-INFO
+[0.708s] writing dependency_links to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/dependency_links.txt
+[0.709s] writing entry points to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/entry_points.txt
+[0.709s] writing requirements to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/requires.txt
+[0.709s] writing top-level names to ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/top_level.txt
+[0.733s] reading manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[0.734s] writing manifest file '../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info/SOURCES.txt'
+[0.734s] running build
+[0.734s] running build_py
+[0.734s] running install
+[0.735s] running install_lib
+[0.736s] running install_data
+[0.737s] running install_egg_info
+[0.738s] removing '/home/peto/dev_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck-1.2.2-py3.8.egg-info' (and everything under it)
+[0.739s] Copying ../../../build/webots_ros2_epuck/webots_ros2_epuck.egg-info to /home/peto/dev_ws/install/webots_ros2_epuck/lib/python3.8/site-packages/webots_ros2_epuck-1.2.2-py3.8.egg-info
+[0.739s] running install_scripts
+[0.751s] Installing drive_calibrator script to /home/peto/dev_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[0.751s] Installing epuck_node script to /home/peto/dev_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[0.751s] Installing simple_mapper script to /home/peto/dev_ws/install/webots_ros2_epuck/lib/webots_ros2_epuck
+[0.752s] writing list of installed files to '/home/peto/dev_ws/build/webots_ros2_epuck/install.log'
+[0.775s] Invoked command in '/home/peto/dev_ws/src/webots_ros2/webots_ros2_epuck' returned '0': AMENT_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peto/dev_ws/install/webots_ros2_control:/home/peto/dev_ws/install/webots_ros2_driver:/home/peto/dev_ws/install/webots_ros2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/peto/dev_ws/install/webots_ros2_control/lib:/home/peto/dev_ws/install/webots_ros2_driver/lib:/home/peto/dev_ws/install/webots_ros2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peto/dev_ws/install/webots_ros2_epuck/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_driver/lib/python3.8/site-packages:/home/peto/dev_ws/install/webots_ros2_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/webots_ros2_epuck build --build-base /home/peto/dev_ws/build/webots_ros2_epuck/build install --prefix /home/peto/dev_ws/install/webots_ros2_epuck --record /home/peto/dev_ws/build/webots_ros2_epuck/install.log --single-version-externally-managed

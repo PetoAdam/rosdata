@@ -1,0 +1,420 @@
+#VRML_SIM R2022a utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the LBRiiwa14
+# Extracted from: /home/peto/urdfs/kuka_lbr_iiwa-verification.urdf
+
+PROTO LBRiiwa14 [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "LBRiiwa14"  # Is `Robot.name`.
+  field  SFString    controller      "void"       # Is `Robot.controller`.
+  field  MFString    controllerArgs  []           # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""           # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE        # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE         # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE        # Is `Robot.selfCollision`.
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    children [
+      Solid {
+        translation 0.000000 0.000000 0.000000
+        rotation 0.000000 0.000000 1.000000 0.000000
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.500000 0.500000 0.500000
+              transparency 0.000000
+              roughness 1.000000
+              metalness 0
+              emissiveColor 0.000000 0.000000 0.000000
+            }
+            geometry DEF iiwa_r820_link_0_hull Mesh {
+              url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_0_hull.stl"
+            }
+          }
+          HingeJoint {
+            jointParameters HingeJointParameters {
+              axis 0.000000 0.000000 1.000000
+              anchor 0.000000 0.000000 0.157500
+              dampingConstant 0.0
+              staticFriction 0.0
+            }
+            device [
+              RotationalMotor {
+                name "LBRiiwa14_BasicJoint1"
+                maxVelocity 2.0
+                minPosition -2.9691
+                maxPosition 2.9691
+                maxTorque 251.3932
+              }
+              PositionSensor {
+                name "LBRiiwa14_BasicJoint1_sensor"
+              }
+            ]
+            endPoint Solid {
+              translation 0.000000 0.000000 0.157500
+              rotation 0.000000 0.000000 1.000000 0.000000
+              children [
+                Shape {
+                  appearance PBRAppearance {
+                    baseColor 0.500000 0.500000 0.500000
+                    transparency 0.000000
+                    roughness 1.000000
+                    metalness 0
+                    emissiveColor 0.000000 0.000000 0.000000
+                  }
+                  geometry DEF iiwa_r820_link_1_hull Mesh {
+                    url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_1_hull.stl"
+                  }
+                }
+                HingeJoint {
+                  jointParameters HingeJointParameters {
+                    axis 0.000000 1.000000 0.000000
+                    anchor 0.000000 0.000000 0.202500
+                    dampingConstant 0.0
+                    staticFriction 0.0
+                  }
+                  device [
+                    RotationalMotor {
+                      name "LBRiiwa14_BasicJoint2"
+                      maxVelocity 2.0
+                      minPosition -2.0964
+                      maxPosition 2.0964
+                      maxTorque 251.3932
+                    }
+                    PositionSensor {
+                      name "LBRiiwa14_BasicJoint2_sensor"
+                    }
+                  ]
+                  endPoint Solid {
+                    translation 0.000000 0.000000 0.202500
+                    rotation 0.000000 0.000000 1.000000 0.000000
+                    children [
+                      Shape {
+                        appearance PBRAppearance {
+                          baseColor 0.500000 0.500000 0.500000
+                          transparency 0.000000
+                          roughness 1.000000
+                          metalness 0
+                          emissiveColor 0.000000 0.000000 0.000000
+                        }
+                        geometry DEF iiwa_r820_link_2_hull Mesh {
+                          url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_2_hull.stl"
+                        }
+                      }
+                      HingeJoint {
+                        jointParameters HingeJointParameters {
+                          axis 0.000000 0.000000 1.000000
+                          anchor 0.000000 0.000000 0.204500
+                          dampingConstant 0.0
+                          staticFriction 0.0
+                        }
+                        device [
+                          RotationalMotor {
+                            name "LBRiiwa14_BasicJoint3"
+                            maxVelocity 2.0
+                            minPosition -2.9691
+                            maxPosition 2.9691
+                            maxTorque 251.3932
+                          }
+                          PositionSensor {
+                            name "LBRiiwa14_BasicJoint3_sensor"
+                          }
+                        ]
+                        endPoint Solid {
+                          translation 0.000000 0.000000 0.204500
+                          rotation 0.000000 0.000000 1.000000 0.000000
+                          children [
+                            Shape {
+                              appearance PBRAppearance {
+                                baseColor 0.500000 0.500000 0.500000
+                                transparency 0.000000
+                                roughness 1.000000
+                                metalness 0
+                                emissiveColor 0.000000 0.000000 0.000000
+                              }
+                              geometry DEF iiwa_r820_link_3_hull Mesh {
+                                url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_3_hull.stl"
+                              }
+                            }
+                            HingeJoint {
+                              jointParameters HingeJointParameters {
+                                axis 0.000000 1.000000 0.000000
+                                anchor 0.000000 0.000000 0.215500
+                                dampingConstant 0.0
+                                staticFriction 0.0
+                              }
+                              device [
+                                RotationalMotor {
+                                  name "LBRiiwa14_BasicJoint4"
+                                  maxVelocity 2.0
+                                  minPosition -2.0964
+                                  maxPosition 2.0964
+                                  maxTorque 251.3932
+                                }
+                                PositionSensor {
+                                  name "LBRiiwa14_BasicJoint4_sensor"
+                                }
+                              ]
+                              endPoint Solid {
+                                translation 0.000000 0.000000 0.215500
+                                rotation 0.000000 0.000000 1.000000 0.000000
+                                children [
+                                  Shape {
+                                    appearance PBRAppearance {
+                                      baseColor 0.500000 0.500000 0.500000
+                                      transparency 0.000000
+                                      roughness 1.000000
+                                      metalness 0
+                                      emissiveColor 0.000000 0.000000 0.000000
+                                    }
+                                    geometry DEF iiwa_r820_link_4_hull Mesh {
+                                      url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_4_hull.stl"
+                                    }
+                                  }
+                                  HingeJoint {
+                                    jointParameters HingeJointParameters {
+                                      axis 0.000000 0.000000 1.000000
+                                      anchor 0.000000 0.000000 0.184500
+                                      dampingConstant 0.0
+                                      staticFriction 0.0
+                                    }
+                                    device [
+                                      RotationalMotor {
+                                        name "LBRiiwa14_BasicJoint5"
+                                        maxVelocity 2.0
+                                        minPosition -2.9691
+                                        maxPosition 2.9691
+                                        maxTorque 251.3932
+                                      }
+                                      PositionSensor {
+                                        name "LBRiiwa14_BasicJoint5_sensor"
+                                      }
+                                    ]
+                                    endPoint Solid {
+                                      translation 0.000000 0.000000 0.184500
+                                      rotation 0.000000 0.000000 1.000000 0.000000
+                                      children [
+                                        Shape {
+                                          appearance PBRAppearance {
+                                            baseColor 0.500000 0.500000 0.500000
+                                            transparency 0.000000
+                                            roughness 1.000000
+                                            metalness 0
+                                            emissiveColor 0.000000 0.000000 0.000000
+                                          }
+                                          geometry DEF iiwa_r820_link_5_hull Mesh {
+                                            url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_5_hull.stl"
+                                          }
+                                        }
+                                        HingeJoint {
+                                          jointParameters HingeJointParameters {
+                                            axis 0.000000 1.000000 0.000000
+                                            anchor 0.000000 0.000000 0.215500
+                                            dampingConstant 0.0
+                                            staticFriction 0.0
+                                          }
+                                          device [
+                                            RotationalMotor {
+                                              name "LBRiiwa14_BasicJoint6"
+                                              maxVelocity 2.0
+                                              minPosition -2.0964
+                                              maxPosition 2.0964
+                                              maxTorque 251.3932
+                                            }
+                                            PositionSensor {
+                                              name "LBRiiwa14_BasicJoint6_sensor"
+                                            }
+                                          ]
+                                          endPoint Solid {
+                                            translation 0.000000 0.000000 0.215500
+                                            rotation 0.000000 0.000000 1.000000 0.000000
+                                            children [
+                                              Shape {
+                                                appearance PBRAppearance {
+                                                  baseColor 0.500000 0.500000 0.500000
+                                                  transparency 0.000000
+                                                  roughness 1.000000
+                                                  metalness 0
+                                                  emissiveColor 0.000000 0.000000 0.000000
+                                                }
+                                                geometry DEF iiwa_r820_link_6_hull Mesh {
+                                                  url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_6_hull.stl"
+                                                }
+                                              }
+                                              HingeJoint {
+                                                jointParameters HingeJointParameters {
+                                                  axis 0.000000 0.000000 1.000000
+                                                  anchor 0.000000 0.000000 0.081000
+                                                  dampingConstant 0.0
+                                                  staticFriction 0.0
+                                                }
+                                                device [
+                                                  RotationalMotor {
+                                                    name "LBRiiwa14_BasicJoint7"
+                                                    maxVelocity 2.0
+                                                    minPosition -2.9691
+                                                    maxPosition 2.9691
+                                                    maxTorque 251.3932
+                                                  }
+                                                  PositionSensor {
+                                                    name "LBRiiwa14_BasicJoint7_sensor"
+                                                  }
+                                                ]
+                                                endPoint Solid {
+                                                  translation 0.000000 0.000000 0.081000
+                                                  rotation 0.000000 0.000000 1.000000 0.000000
+                                                  children [
+                                                    Shape {
+                                                      appearance PBRAppearance {
+                                                        baseColor 0.500000 0.500000 0.500000
+                                                        transparency 0.000000
+                                                        roughness 1.000000
+                                                        metalness 0
+                                                        emissiveColor 0.000000 0.000000 0.000000
+                                                      }
+                                                      geometry DEF iiwa_r820_link_7_hull Mesh {
+                                                        url "o/urdfs/package:/lbriiwa14/meshes/v0.1/visual/iiwa_r820_link_7_hull.stl"
+                                                      }
+                                                    }
+                                                  ]
+                                                  name "URDFSerialAxis7"
+                                                  boundingObject DEF iiwa_r820_link_7_collision Mesh {
+                                                    url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_7_collision.stl"
+                                                  }
+                                                  physics Physics {
+                                                    density -1
+                                                    mass 0.627000
+                                                    centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                                    inertiaMatrix [
+                                                      3.000000e-04 3.000000e-04 5.000000e-04
+                                                      0.000000e+00 0.000000e+00 0.000000e+00
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                            name "URDFSerialAxis6"
+                                            boundingObject DEF iiwa_r820_link_6_collision Mesh {
+                                              url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_6_collision.stl"
+                                            }
+                                            physics Physics {
+                                              density -1
+                                              mass 2.458000
+                                              centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                              inertiaMatrix [
+                                                7.000000e-03 6.000000e-03 5.000000e-03
+                                                0.000000e+00 0.000000e+00 0.000000e+00
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                      name "URDFSerialAxis5"
+                                      boundingObject DEF iiwa_r820_link_5_collision Mesh {
+                                        url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_5_collision.stl"
+                                      }
+                                      physics Physics {
+                                        density -1
+                                        mass 1.867000
+                                        centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                        inertiaMatrix [
+                                          1.000000e-02 1.000000e-02 1.000000e-02
+                                          0.000000e+00 0.000000e+00 0.000000e+00
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                                name "URDFSerialAxis4"
+                                boundingObject DEF iiwa_r820_link_4_collision Mesh {
+                                  url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_4_collision.stl"
+                                }
+                                physics Physics {
+                                  density -1
+                                  mass 5.410000
+                                  centerOfMass [ 0.000000 0.000000 0.000000 ]
+                                  inertiaMatrix [
+                                    4.000000e-02 3.000000e-02 1.000000e-02
+                                    0.000000e+00 0.000000e+00 0.000000e+00
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                          name "URDFSerialAxis3"
+                          boundingObject DEF iiwa_r820_link_3_collision Mesh {
+                            url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_3_collision.stl"
+                          }
+                          physics Physics {
+                            density -1
+                            mass 2.569700
+                            centerOfMass [ 0.000000 0.000000 0.000000 ]
+                            inertiaMatrix [
+                              2.000000e-02 2.000000e-02 6.000000e-02
+                              0.000000e+00 0.000000e+00 0.000000e+00
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                    name "URDFSerialAxis2"
+                    boundingObject DEF iiwa_r820_link_2_collision Mesh {
+                      url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_2_collision.stl"
+                    }
+                    physics Physics {
+                      density -1
+                      mass 8.365000
+                      centerOfMass [ 0.000000 0.000000 0.000000 ]
+                      inertiaMatrix [
+                        8.000000e-02 8.000000e-02 1.000000e-02
+                        0.000000e+00 0.000000e+00 0.000000e+00
+                      ]
+                    }
+                  }
+                }
+              ]
+              name "URDFSerialAxis1"
+              boundingObject DEF iiwa_r820_link_1_collision Mesh {
+                url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_1_collision.stl"
+              }
+              physics Physics {
+                density -1
+                mass 6.495000
+                centerOfMass [ 0.000000 0.000000 0.000000 ]
+                inertiaMatrix [
+                  6.907000e-02 7.110000e-02 2.000000e-02
+                  0.000000e+00 0.000000e+00 0.000000e+00
+                ]
+              }
+            }
+          }
+        ]
+        name "URDFFixedBase"
+        boundingObject DEF iiwa_r820_link_0_collision Mesh {
+          url "o/urdfs/package:/lbriiwa14/meshes/v0.1/collision/iiwa_r820_link_0_collision.stl"
+        }
+        physics Physics {
+          density -1
+          mass 3.283200
+          centerOfMass [ 0.000000 0.000000 0.000000 ]
+          inertiaMatrix [
+            5.000000e-04 5.000000e-04 5.000000e-04
+            0.000000e+00 0.000000e+00 0.000000e+00
+          ]
+        }
+      }
+    ]
+    name IS name
+  }
+}
